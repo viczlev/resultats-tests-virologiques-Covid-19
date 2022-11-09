@@ -14,14 +14,29 @@
 * __Couverture __territoriale : France  
 * __Conservation de la data__ : 10 ans (CNIL + https://www.tf1info.fr/societe/video-coronavirus-si-vaccin-covid-comment-fonctionne-ce-fichier-regroupant-les-donnees-des-personnes-vaccinees-2174533.html)  
 
-### b. Description quali
+### b. Description qualitative générale
 
-* Dès le lancement de la campagne de vaccination, les autorités sanitaires ont disposé d’informations permettant un suivi quotidien de l’avancée et du déploiement de la campagne sur le territoire.  
-* Celles-ci, recueillies auprès des établissements pour personnes âgées et des centres de vaccination, étaient transmises par les Agences régionales de santé.  
-* Parallèlement, l’Assurance maladie a élaboré le système d’information Vaccin Covid (VAC-SI), qui est depuis pleinement opérationnel après un travail d’analyse de l’exhaustivité et de la complétude des données.  
-* Le système d’information Vaccin Covid est alimenté par les professionnels de santé réalisant les vaccinations.  
-* Sur la base de l’exploitation de ces données, Santé Publique France publie en open data les indicateurs de couverture vaccinale sur data.gouv, sur Geodes ainsi que sur un dashboard disponible sur le site de santé Publique France : InfoCovidFrance  
+* Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national.
+* Le nouveau système d’information de dépistage (SI-DEP), en déploiement depuis le 13 mai 2020, est une plateforme sécurisée où sont systématiquement enregistrés les résultats des laboratoires des testsréalisés par l’ensemble des laboratoires de ville et établissements hospitaliers concernant le SARS-COV2.
+* La création de ce système d'information est autorisée pour une durée de 6 mois à compter de la fin de l'état d'urgence sanitaire par application du décret n° 2020-551 du 12 mai 2020 relatif aux systèmes d’information mentionnés à l’article 11 de la loi n° 2020-546 du 11 mai 2020 prorogeant l’état d’urgence sanitaire et complétant ses dispositions.
+* Le système d’information Dépistage est alimenté par les professionnels de santé réalisant les dépistage.  
+* Sur la base de l’exploitation de ces données, Santé Publique France publie en open data les indicateurs de progression de l'épidémie sur data.gouv, sur Geodes ainsi que sur un dashboard disponible sur le site de santé Publique France : InfoCovidFrance  
 
+### c. Description du jeu de données
+
+Le présent jeu de données renseigne à l'échelle __départementale et régionale__ :  
+* le nombre de personnes testées et le nombre de personnes déclarées positives par classe d'âge (quotidien et hebdomadaire) ;  
+* le nombre de personnes positives sur 7 jours glissants.  
+
+Le présent jeu de données renseigne à l'échelle __nationale__ :  
+* le nombre de personnes testées et le nombre de personnes déclarées positives par sexe et classe d'âge (quotidien et hebdomadaire).  
+* Le taux de positivité correspond au nombre de tests positifs rapportés au nombre de tests réalisés. Il est calculé de la manière suivante : 100*nombre de test positif/ nombre de tests réalisés  
+
+Précisions : Si plusieurs prélèvements sont rapportés pour un même patient:
+
+* A compter du 29/08, les indicateurs issus des données de laboratoires (SI-DEP) présentent des taux d’incidence, de positivité et de dépistage corrigés en fonction des dépistages réalisés dans les aéroports à l’arrivée des vols internationaux.  
+
+La correction s’applique sur l’ensemble des données postérieures à la date du 12 août.  
 
 ## 1) Qui a créé ce jeu de données ? A quelles fin ?
 
