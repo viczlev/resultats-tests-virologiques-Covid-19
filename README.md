@@ -1,5 +1,4 @@
 # Données relatives aux personnes vaccinées contre la Covid-19 (Base de données de Santé Publique France)
-Enquête étudiante visant à analyser de façon critique une base de données
 
 
 ## 0) Description de la base de données
@@ -32,7 +31,7 @@ Enquête étudiante visant à analyser de façon critique une base de données
 * Santé publique France est l’agence nationale de santé publique.  
    * Créée en mai 2016 par ordonnance et décret, c’est un établissement public administratif sous tutelle du ministère chargé de la Santé.  
    * Sa mission : améliorer et protéger la santé des populations. Cette mission s'articule autour de trois axes majeurs :  
-      *  Anticiper  
+      * Anticiper  
       * Comprendre  
       * Agir.  
 * En tant qu'agence scientifique et d’expertise du champ sanitaire, Santé publique France a en charge :  
