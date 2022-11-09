@@ -1,16 +1,16 @@
-# Données relatives aux personnes vaccinées contre la Covid-19 (Base de données de Santé Publique France)
+# Données relatives aux résultats des tests virologiques COVID-19 SI-DEP (Base de données de Santé Publique France)
 
 ## 0) Description de la base de données
 ### a. Carte d'identité
 
-* __Nom__ : Données relatives aux personnes vaccinées contre la Covid-19  
-* __Où trouver le jeu de données__ : data.gouv.fr - Données relatives aux personnes vaccinées contre la Covid-19 (VAC-SI) - data.gouv.fr - ID 6010206e7aa742eb447930f7  
+* __Nom__ : Données relatives aux résultats des tests virologiques COVID-19 SI-DEP puis Données de laboratoires pour le dépistage (à compter du 18/05/2022)  
+* __Où trouver le jeu de données__ : data.gouv.fr - [Données relatives aux résultats des tests virologiques COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/) et [Données de laboratoires pour le dépistage (A COMPTER DU 18/05/2022) - SI-DEP](https://www.data.gouv.fr/fr/datasets/donnees-de-laboratoires-pour-le-depistage-a-compter-du-18-05-2022-si-dep/)  
 * __Producteur du jeu de données__ : Santé Publique France  
 * __Licence__ : Licence Ouverte / Open Licence version 2.0  
 * __Temporalité__ : quotidienne  
-* __Date de création__ : 26 janvier 2021  
-* __Dernière mise à jour__ : 7 novembre 2022  
-* __Granularité de la couverture territoriale__ : département français  
+* __Date de création__ : 29 mai 2020  
+* __Dernière mise à jour__ : 8 novembre 2022  
+* __Granularité de la couverture territoriale__ : Iris (quartiers INSEE)  
 * __Couverture __territoriale : France  
 * __Conservation de la data__ : 10 ans (CNIL + https://www.tf1info.fr/societe/video-coronavirus-si-vaccin-covid-comment-fonctionne-ce-fichier-regroupant-les-donnees-des-personnes-vaccinees-2174533.html)  
 
