@@ -1,6 +1,5 @@
 # Données relatives aux personnes vaccinées contre la Covid-19 (Base de données de Santé Publique France)
 
-
 ## 0) Description de la base de données
 ### a. Carte d'identité
 
@@ -49,6 +48,10 @@
 * Dans le but d'assurer un suivi quotidien de l'avancée et du déploiement de la campagne de vaccination contre le Covid-19 sur le territoire afin de :  
    * Piloter la campagne (l'exploitation des données conduit à de nombreuses analyses à usage des acteurs de la gestion de crise)  
    * Informer le grand public (l'exploitation des données conduit à de nombreuses analyses publiées)  
+   
+### c. Chaîne de valeur du jeu de données
+
+![Chaîne de valeur du jeu de données](https://www.santepubliquefrance.fr/var/site/storage/images/2/8/0/7/3107082-1-fre-FR/miniature_infog_covid_sidep_220721.JPG)
 
 ## 2) Quelles catégories sont utilisées pour le représenter ?
 
