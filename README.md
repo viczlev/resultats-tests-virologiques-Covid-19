@@ -38,7 +38,7 @@ Précisions : Si plusieurs prélèvements sont rapportés pour un même patient:
 
 La correction s’applique sur l’ensemble des données postérieures à la date du 12 août.  
 
-## 1) Qui a créé ce jeu de données ? A quelles fin ?
+## 1) Qui a créé ce jeu de données ? A quelles fins ?
 
 ### a. Producteur du jeu de données : Santé Publique France
 	
@@ -58,7 +58,7 @@ La correction s’applique sur l’ensemble des données postérieures à la dat
 	
 	À partir de l’adresse <https://www.data.gouv.fr/fr/organizations/sante-publique-france/> 
 	
-### b. A quelles fins le jeu de données est créé
+### b. A quelles fins le jeu de données est-il créé ?
 
 * Dans le but d'assurer un suivi quotidien de la progression de l'épidémie de Covid-19 sur le territoire afin de :  
    * Piloter la campagne (l'exploitation des données conduit à de nombreuses analyses à usage des acteurs de la gestion de crise)  
