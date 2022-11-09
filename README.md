@@ -14,7 +14,7 @@
 * __Couverture __territoriale : France  
 * __Conservation de la data__ : 10 ans (CNIL + https://www.tf1info.fr/societe/video-coronavirus-si-vaccin-covid-comment-fonctionne-ce-fichier-regroupant-les-donnees-des-personnes-vaccinees-2174533.html)  
 
-### b. Description qualitative générale
+### b. Description qualitative générale (c'est que du copié/collé de data.gouv.fr ; faudra affiner/compléter)
 
 * Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national.
 * Le nouveau système d’information de dépistage (SI-DEP), en déploiement depuis le 13 mai 2020, est une plateforme sécurisée où sont systématiquement enregistrés les résultats des laboratoires des testsréalisés par l’ensemble des laboratoires de ville et établissements hospitaliers concernant le SARS-COV2.
@@ -60,7 +60,7 @@ La correction s’applique sur l’ensemble des données postérieures à la dat
 	
 ### b. A quelles fin leu jeu de données est créé
 
-* Dans le but d'assurer un suivi quotidien de l'avancée et du déploiement de la campagne de vaccination contre le Covid-19 sur le territoire afin de :  
+* Dans le but d'assurer un suivi quotidien de la progression de l'épidémie de Covid-19 sur le territoire afin de :  
    * Piloter la campagne (l'exploitation des données conduit à de nombreuses analyses à usage des acteurs de la gestion de crise)  
    * Informer le grand public (l'exploitation des données conduit à de nombreuses analyses publiées)  
    
@@ -90,7 +90,8 @@ La correction s’applique sur l’ensemble des données postérieures à la dat
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?
 
-* En Espagne : un fichier des non-vaccinés mais ce n'est pas le cas chez nous en France  
+* Enormément de critiques pendant la crise sur la façon de compter les cas de Covid  
+* Actualité : pour dénoncer la coupe budgétaire dans le budget de la Sécurité Sociale, les biologistes __ne déclareront plus les résultats des tests Covid dans la base SI-DEP__ et ce à compter du __jeudi 27 octobre__. "Devant la surdité des pouvoirs publics, nous avons décidé de suspendre la transmission des données de dépistage sur la plateforme SI-DEP à partir du 27 octobre", a annoncé Alain Le Meur à l'AFP.  
 	
 
 ## 5) Quelle réalités ces données/indicateurs sont-ils censés représenter ?
