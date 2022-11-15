@@ -55,6 +55,8 @@ La correction s’applique sur l’ensemble des données postérieures à la dat
    * la promotion de la santé et la réduction des risques pour la santé ;  
    * le développement de la prévention et de l'éducation pour la santé ;  
    * la préparation et la réponse aux menaces, alertes et crises sanitaires.  
+   
+* Gestionnaire de la base de données
 	
 	À partir de l’adresse <https://www.data.gouv.fr/fr/organizations/sante-publique-france/> 
 	
