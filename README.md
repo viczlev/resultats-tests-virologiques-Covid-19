@@ -1,7 +1,7 @@
 
 
 
-# Données relatives aux résultats des tests virologiques COVID-19 SI-DEP (Base de données de Santé Publique France)
+# Données relatives aux résultats des tests virologiques COVID-19 SI-DEP
 
 ## 0) Description de la base de données
 ### a. Carte d'identité
