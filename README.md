@@ -3,7 +3,7 @@
 ## 0) Description de la base de données
 ### a. Carte d'identité
 
-* __Nom__ : **Données relatives aux résultats des tests virologiques COVID-19 SI-DEP** puis **Données de laboratoires pour le dépistage (à compter du 18/05/2022)**  
+* __Nom__ : Données relatives aux résultats des tests virologiques COVID-19 SI-DEP puis Données de laboratoires pour le dépistage (à compter du 18/05/2022)  
 * __Où trouver le jeu de données__ : data.gouv.fr - [Données relatives aux résultats des tests virologiques COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/) et [Données de laboratoires pour le dépistage (A COMPTER DU 18/05/2022) - SI-DEP](https://www.data.gouv.fr/fr/datasets/donnees-de-laboratoires-pour-le-depistage-a-compter-du-18-05-2022-si-dep/)  
 * __Producteur du jeu de données__ : Santé Publique France  
 * __Licence__ : Licence Ouverte / Open Licence version 2.0  
