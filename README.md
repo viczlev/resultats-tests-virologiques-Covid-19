@@ -11,8 +11,8 @@
 * __Date de création__ : 29 mai 2020  
 * __Dernière mise à jour__ : 8 novembre 2022  
 * __Granularité de la couverture territoriale__ : Iris (quartiers INSEE)  
-* __Couverture __territoriale : France  
-* __Conservation de la data__ : 10 ans (CNIL + https://www.tf1info.fr/societe/video-coronavirus-si-vaccin-covid-comment-fonctionne-ce-fichier-regroupant-les-donnees-des-personnes-vaccinees-2174533.html)  
+* __Couverture territoriale__ : France  
+* __
 
 ### b. Description qualitative générale (c'est que du copié/collé de data.gouv.fr ; faudra affiner/compléter)
 
@@ -61,9 +61,15 @@ La correction s’applique sur l’ensemble des données postérieures à la dat
 	
 	À partir de l’adresse <https://www.data.gouv.fr/fr/organizations/sante-publique-france/> 
 	
-### b. A quelles fins le jeu de données est-il créé ?
+### b. A quelles fins le jeu de données est-il créé ? Mise en contexte (crise sanitaire)
 
-* Besoin initial du gouvernement qui était dans l'incapacité de décompter exhaustivement le nombre de tests réalisés chaque semaine
+* Depuis le début de l'année 2020, la France est touchée par le virus de la Covid-19 qualifié de pandémie par l'OMS le 11 mars 2020. Aux débuts de l'épidémie, le gouvernement est dans l'incapacité de décompter exhaustivement le nombre de tests réalisés chaque semaine et par conséquent le nombre de cas de Covid identifiés. 
+* Le Système d'Information national de dépistage populationnel (SI-DEP) est mis en oeuvre dans ce contexte afin d'accompagner le déploiement des tests virologiques de dépistage du Covid 19 et répondre agilement et rapidement aux besoins de :
+   * Contact-tracing
+   * De surveillance de la dynamique de l’épidémie
+   * D’anticipation de l’évolution de l'épidémie
+   * De prévention afin de limiter la transmission du virus sur le territoire
+
 * Dans le but d'assurer un suivi quotidien de la progression de l'épidémie de Covid-19 sur le territoire afin de :  
    * Piloter la campagne (l'exploitation des données conduit à de nombreuses analyses à usage des acteurs de la gestion de crise)  
    * Informer le grand public (l'exploitation des données conduit à de nombreuses analyses publiées)  
