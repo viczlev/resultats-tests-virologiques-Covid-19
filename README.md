@@ -12,7 +12,6 @@
 * __Dernière mise à jour__ : 8 novembre 2022  
 * __Granularité de la couverture territoriale__ : Iris (quartiers INSEE)  
 * __Couverture territoriale__ : France  
-* __
 
 ### b. Description qualitative générale (c'est que du copié/collé de data.gouv.fr ; faudra affiner/compléter)
 
@@ -64,17 +63,17 @@ La correction s’applique sur l’ensemble des données postérieures à la dat
 ### b. A quelles fins le jeu de données est-il créé ? Mise en contexte (crise sanitaire)
 
 * Depuis le début de l'année 2020, la France est touchée par le virus de la Covid-19 qualifié de pandémie par l'OMS le 11 mars 2020. Aux débuts de l'épidémie, le gouvernement est dans l'incapacité de décompter exhaustivement le nombre de tests réalisés chaque semaine et par conséquent le nombre de cas de Covid identifiés. 
-* Le Système d'Information national de dépistage populationnel (SI-DEP) est mis en oeuvre dans ce contexte afin d'accompagner le déploiement des tests virologiques de dépistage du Covid 19 et répondre agilement et rapidement aux besoins de :
+* Le __Système d'Information national de dépistage populationnel (SI-DEP)__ est mis en oeuvre dans ce contexte afin d'accompagner le déploiement des tests virologiques de dépistage du Covid 19 et répondre agilement et rapidement aux besoins de :
    * Contact-tracing
    * De surveillance de la dynamique de l’épidémie
    * D’anticipation de l’évolution de l'épidémie
    * De prévention afin de limiter la transmission du virus sur le territoire
 
-* Dans le but d'assurer un suivi quotidien de la progression de l'épidémie de Covid-19 sur le territoire afin de :  
-   * Piloter la campagne (l'exploitation des données conduit à de nombreuses analyses à usage des acteurs de la gestion de crise)  
-   * Informer le grand public (l'exploitation des données conduit à de nombreuses analyses publiées)  
+* La plateforme SI-DEP traite et exploite les résultats des tests virologiques effectués dans toute la France, ce qui permet ensuite à __Santé Publique France__ de publier ces données qui ont servi / servent à  
+   * Piloter la campagne pour les acteurs de la gestion de crise
+   * Informer le grand public 
    
-### c. Chaîne de valeur du jeu de données
+### c. Chaîne de valeur du jeu de données : comment celui-ci est alimenté et à qui les données sont destinées à la fin de leur exploitation ?
 
 ![Chaîne de valeur du jeu de données](https://www.santepubliquefrance.fr/var/site/storage/images/2/8/0/7/3107082-1-fre-FR/miniature_infog_covid_sidep_220721.JPG)
 [Cliquer ici pour télécharger l'image en meilleure qualité](https://www.santepubliquefrance.fr/content/download/362234/3107084?version=1)
