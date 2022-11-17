@@ -16,7 +16,7 @@
 ### b. Description qualitative générale (c'est que du copié/collé de data.gouv.fr ; faudra affiner/compléter)
 
 * Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national.
-* Le nouveau système d’information de dépistage (SI-DEP), en déploiement depuis le 13 mai 2020, est une plateforme sécurisée où sont systématiquement enregistrés les résultats des laboratoires des tests réalisés par l’ensemble des laboratoires de ville et établissements hospitaliers concernant le SARS-COV2.
+* Le système d’information de dépistage (SI-DEP), en déploiement depuis le 13 mai 2020, est une plateforme sécurisée où sont systématiquement enregistrés les résultats des laboratoires des tests réalisés par l’ensemble des laboratoires de ville et établissements hospitaliers concernant le SARS-COV2. Ce système d'information collecte et traite les données liées aux tests virulogiques permettant ensuite à Santé Publique France de publier des indicateurs
 * Le fichier SI-DEP est une base nominative qui contient les résultats des tests sérologiques et des tests RT-PCR. Elargi depuis aux tests antigéniques ainsi qu’aux autotests supervisés, son remplissage conditionne le remboursement des soignants, pharmacies et laboratoires qui réalisent les tests du Covid-19.
 * La création de ce système d'information est autorisée pour une durée de 6 mois à compter de la fin de l'état d'urgence sanitaire par application du décret n° 2020-551 du 12 mai 2020 relatif aux systèmes d’information mentionnés à l’article 11 de la loi n° 2020-546 du 11 mai 2020 prorogeant l’état d’urgence sanitaire et complétant ses dispositions.
 * Le système d’information Dépistage est alimenté par les professionnels de santé réalisant les dépistage.  
@@ -63,7 +63,7 @@ La correction s’applique sur l’ensemble des données postérieures à la dat
 ### b. A quelles fins le jeu de données est-il créé ? Mise en contexte (crise sanitaire)
 
 * Depuis le début de l'année 2020, la France est touchée par le virus de la Covid-19 qualifié de pandémie par l'OMS le 11 mars 2020. Aux débuts de l'épidémie, le gouvernement est dans l'incapacité de décompter exhaustivement le nombre de tests réalisés chaque semaine et par conséquent le nombre de cas de Covid identifiés. 
-* Le __Système d'Information national de dépistage populationnel (SI-DEP)__ est mis en oeuvre dans ce contexte afin d'accompagner le déploiement des tests virologiques de dépistage du Covid 19 et répondre agilement et rapidement aux besoins de :
+* Le __Système d'Information national de dépistage populationnel (SI-DEP)__ est un outil numérique mis en oeuvre dans ce contexte afin d'accompagner le déploiement des tests virologiques de dépistage du Covid 19 et répondre agilement et rapidement aux besoins de :
    * Contact-tracing
    * De surveillance de la dynamique de l’épidémie
    * D’anticipation de l’évolution de l'épidémie
@@ -72,6 +72,8 @@ La correction s’applique sur l’ensemble des données postérieures à la dat
 * La plateforme SI-DEP traite et exploite les résultats des tests virologiques effectués dans toute la France, ce qui permet ensuite à __Santé Publique France__ de publier ces données qui ont servi / servent à  
    * Piloter la campagne pour les acteurs de la gestion de crise
    * Informer le grand public 
+
+* SI-DEP repose sur un partenariat entre le ministère des Solidarités et de la Santé (responsable du traitement), l’Assistance publique – Hôpitaux de Paris (AP-HP, maître d’œuvre), Santé publique France, les laboratoires de biologie médicale et leurs éditeurs de système d’information.
    
 ### c. Chaîne de valeur du jeu de données : comment celui-ci est alimenté et à qui les données sont destinées à la fin de leur exploitation ?
 
