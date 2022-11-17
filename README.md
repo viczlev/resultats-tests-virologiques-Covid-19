@@ -76,7 +76,7 @@ Comme décrit précedemment, les donnes ont été précedemment anonymisées par
 ![Chaîne de valeur du jeu de données](https://www.santepubliquefrance.fr/var/site/storage/images/2/8/0/7/3107082-1-fre-FR/miniature_infog_covid_sidep_220721.JPG)
 [Cliquer ici pour télécharger l'image en meilleure qualité](https://www.santepubliquefrance.fr/content/download/362234/3107084?version=1)
 
-Expliquer le fonctionnement de l'outil national SI-DEP cf photo
+Expliquer le fonctionnement de l'outil national SI-DEP cf photo    
 Limite on peut enlever le dernier schéma, le premier est plus parlant non ?
 
 ## 2) Quelles catégories sont utilisées pour le représenter ?
