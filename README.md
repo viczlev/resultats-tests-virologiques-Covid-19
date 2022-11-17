@@ -135,7 +135,7 @@ Par exemple :
 * la table agrégée __sp_fra_heb_cage_scol__ contient les données SI DEP (sp) au niveau nationale (reg) pour les semaines calendaires (heb) et les classes d'âge scolaires (cage_scol)
 
 Remarques :
-* Les valeurs manquantes sont notées '<NA>'
+* Les valeurs manquantes sont notées < NA >
 * Les données "tous âges confondus" sont identifiés par une valeur 0 dans la colonne "cl_age90"
  
 
