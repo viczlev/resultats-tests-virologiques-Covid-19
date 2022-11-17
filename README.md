@@ -13,7 +13,7 @@
 * __Temporalité__ : quotidienne  
 * __Date de création__ : 29 mai 2020 (la deuxième base de données améliorée est utilisée depuis le 18 mai 2022)      
 * __Dernière mise à jour__ : 16 novembre 2022  
-* __Granularité de la couverture territoriale__ : Iris (quartiers INSEE)  
+* __Granularité de la couverture territoriale__ : de la maille nationale à la maille infracommunale (quartiers IRIS de l'INSEE)  
 * __Couverture territoriale__ : France  
 
 ### b. Description qualitative générale
@@ -52,9 +52,6 @@ Comme expliqué précedemment, les données ont été pseudonymisées par le sys
    * le développement de la prévention et de l'éducation pour la santé ;  
    * la préparation et la réponse aux menaces, alertes et crises sanitaires.  
    
-* Gestionnaire de la base de données, est-ce que ça vaut le coup de contacter  laurent.treluyer@aphp.fr qui a coordonné le projet SI-DEP ??
-	
-	À partir de l’adresse <https://www.data.gouv.fr/fr/organizations/sante-publique-france/> 
 	
 ### b. A quelles fins le jeu de données est-il créé ? Mise en contexte (crise sanitaire)
 
