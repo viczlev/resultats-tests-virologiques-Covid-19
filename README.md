@@ -70,13 +70,14 @@ Comme décrit précedemment, les donnes ont été précedemment anonymisées par
    
 ### c. Chaîne de valeur du jeu de données : comment celui-ci est alimenté et à qui les données sont destinées à la fin de leur exploitation ?
 
-![image](https://user-images.githubusercontent.com/115630281/202455831-5c8109da-b93f-49d5-be95-1d329e80f29e.png)
-BLablabla à expliquer
+![image](https://user-images.githubusercontent.com/115630281/202484627-4cb0487e-7b54-4d53-95eb-bd3d242d2309.png)
+
 
 ![Chaîne de valeur du jeu de données](https://www.santepubliquefrance.fr/var/site/storage/images/2/8/0/7/3107082-1-fre-FR/miniature_infog_covid_sidep_220721.JPG)
 [Cliquer ici pour télécharger l'image en meilleure qualité](https://www.santepubliquefrance.fr/content/download/362234/3107084?version=1)
 
 Expliquer le fonctionnement de l'outil national SI-DEP cf photo
+Limite on peut enlever le dernier schéma, le premier est plus parlant non ?
 
 ## 2) Quelles catégories sont utilisées pour le représenter ?
 
