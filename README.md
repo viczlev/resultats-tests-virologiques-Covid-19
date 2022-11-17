@@ -8,7 +8,7 @@
 * __Producteur du jeu de données__ : Santé Publique France  
 * __Licence__ : Licence Ouverte / Open Licence version 2.0  
 * __Temporalité__ : quotidienne  
-* __Date de création__ : 29 mai 2020  
+* __Date de création__ : 29 mai 2020 (la deuxième base de données améliorée est utilisée depuis le 18 mai 2022)      
 * __Dernière mise à jour__ : 8 novembre 2022  
 * __Granularité de la couverture territoriale__ : Iris (quartiers INSEE)  
 * __Couverture territoriale__ : France  
@@ -16,11 +16,11 @@
 ### b. Description qualitative générale (c'est que du copié/collé de data.gouv.fr ; faudra affiner/compléter)
 
 * Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national.
-* Le système d’information de dépistage (SI-DEP), en déploiement depuis le 13 mai 2020, est une plateforme sécurisée où sont systématiquement enregistrés les résultats des laboratoires des tests réalisés par l’ensemble des laboratoires de ville et établissements hospitaliers concernant le SARS-COV2. Ce système d'information collecte et traite les données liées aux tests virulogiques permettant ensuite à Santé Publique France de publier des indicateurs
+* Le système d’information de dépistage (SI-DEP), en déploiement depuis le 13 mai 2020, est une plateforme sécurisée où sont systématiquement enregistrés les résultats des laboratoires des tests réalisés par l’ensemble des laboratoires de ville et établissements hospitaliers concernant le SARS-COV2.
 * Le fichier SI-DEP est une base nominative qui contient les résultats des tests sérologiques et des tests RT-PCR. Elargi depuis aux tests antigéniques ainsi qu’aux autotests supervisés, son remplissage conditionne le remboursement des soignants, pharmacies et laboratoires qui réalisent les tests du Covid-19.
 * La création de ce système d'information est autorisée pour une durée de 6 mois à compter de la fin de l'état d'urgence sanitaire par application du décret n° 2020-551 du 12 mai 2020 relatif aux systèmes d’information mentionnés à l’article 11 de la loi n° 2020-546 du 11 mai 2020 prorogeant l’état d’urgence sanitaire et complétant ses dispositions.
-* Le système d’information Dépistage est alimenté par les professionnels de santé réalisant les dépistage.  
-* Sur la base de l’exploitation de ces données, Santé Publique France publie en open data les indicateurs de progression de l'épidémie sur data.gouv, sur Geodes ainsi que sur un dashboard disponible sur le site de santé Publique France : InfoCovidFrance  
+* Le système d’information Dépistage est alimenté par les professionnels de santé réalisant les dépistages.  
+* __Sur la base de l’exploitation des données de SI-DEP, Santé Publique France publie en open data les indicateurs de progression de l'épidémie sur data.gouv, sur Geodes ainsi que sur un dashboard disponible sur le site de santé Publique France : InfoCovidFrance__  
 
 ### c. Description du jeu de données
 
@@ -70,7 +70,7 @@ La correction s’applique sur l’ensemble des données postérieures à la dat
    * De prévention afin de limiter la transmission du virus sur le territoire
 
 * La plateforme SI-DEP traite et exploite les résultats des tests virologiques effectués dans toute la France, ce qui permet ensuite à __Santé Publique France__ de publier ces données qui ont servi / servent à  
-   * Piloter la campagne pour les acteurs de la gestion de crise
+   * Piloter la campagne pour les acteurs de la gestion de crise (les indicateurs de surveillance de l'évolution de la pandémie aident significativement à la détection de cluster) 
    * Informer le grand public 
 
 * SI-DEP repose sur un partenariat entre le ministère des Solidarités et de la Santé (responsable du traitement), l’Assistance publique – Hôpitaux de Paris (AP-HP, maître d’œuvre), Santé publique France, les laboratoires de biologie médicale et leurs éditeurs de système d’information.
@@ -87,7 +87,37 @@ Expliquer le fonctionnement de l'outil national SI-DEP cf photo
 
 ## 2) Quelles catégories sont utilisées pour le représenter ?
 
-* Expliquer quelles sont les différentes catégories utilisées dans la base de données, pourquoi c'est pertinent d'avoir divisé/découpé les indicateurs de cette façon…
+* Dans un souci de simplification, nous ne détaillerons de façon précise que la composition de la base de données utilisée depuis le 18 mai 2022 "Données de laboratoires pour le dépistage (à compter du 18/05/2022)" étant donné qu'elle est une amélioration de la base de données initiale.
+
+* Tous les jours, les données brutes sont retraitées afin de calculer des indicateurs complexes qui sont ensuite découpés sous forme de nombreuses agrégations géographiques et temporelles. La production des indicateurs est complexe et il est donc nécessaire que le modèle de données soit efficient pour que les objectifs de publication quotidienne de Santé publique France soient remplis. __Afin de minimiser le temps de production des indicateurs, les bases de données sont pré-agrégées selon la "définition patient" ainsi que selon différentes échelles géographiques : ce sont les tables agrégées__
+
+* Au cours des collectes de données (ie des tests de dépistage), sont collectées des données concernant 
+   * les personnes dépistées (nom, prénom, âge, sexe, date de naissance, e-mail, téléphone...) 
+   * le prélèvement et son origine (n° RPPS du médecin prescripteur et du médecin traitant, n° de dossier, date et heure du dépistage...)
+   * le résultat du test (positif, négatif, ininterprétable, non-conforme)
+
+__En revanche, les données sont anonymisées préalablement par SI-DEP avant d'être exploitées par Santé Publique France qui publie les indicateurs.__
+
+Les fichiers de tables agrégées contiennent chacun :
+* Une colonne pour l'échelon géographique (France, région, dépatrement, code IRIS, code INSEE de la commmune, code de l'EPCI)
+* Une colonne pour le pas de temps (semaine glossante OU semaine calendaire OU date du jour)
+* Une colonne pour les variables d'agrégation (catégorie d'âge, catégories scolaires, sexe)
+* Une colonne pour les effectifs (population, patients testés positifs, nombre de patients testés)
+* Une colonne pour les indicateurs calculés 
+   * Taux d'incidence
+   * Taux de positivité
+   * Taux de dépistage
+   * La classe du taux d'incidence (si applicable ie pour les fichiers IRIS, commune et EPCI)
+   * La classe du taux de dépistage (si applicable ie pour les fichiers IRIS, commune et EPCI)
+   * La classe du taux de positivité (si applicable ie pour les fichiers IRIS, commune et EPCI)
+
+Par exemple :
+* la table agrégée __sp_reg_7j_cage10__ contient les données SI DEP (sp) au niveau régional (reg) pour les semaines glissantes (7j) et les classes d'âge de 10 ans
+* * la table agrégée __sp_fra_heb_cage_scol__ contient les données SI DEP (sp) au niveau nationale (reg) pour les semaines calendaires (heb) et les classes d'âge scolaires
+
+Remarques :
+* Les valeurs manquantes sont notées <NA>
+* Les données "tous âges confondus" sont identifiés par une valeur 0 dans la colonne "cl_age90"
   
 
 ## 3) Quels sont les usages de ce jeu de données ?
