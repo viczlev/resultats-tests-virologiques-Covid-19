@@ -72,7 +72,8 @@ Comme expliqué précedemment, les données ont été pseudonymisées par le sys
 
 ![image](https://user-images.githubusercontent.com/115630281/202484627-4cb0487e-7b54-4d53-95eb-bd3d242d2309.png)
 
-Comment Santé publique France produit-elle ses indicateurs virologiques ?
+***Comment Santé publique France produit-elle ses indicateurs virologiques ?***
+
 
 #### 1) Collecte de données auprès des professionnels de santé
 
@@ -117,8 +118,8 @@ Comment Santé publique France produit-elle ses indicateurs virologiques ?
 __En revanche, les données sont anonymisées préalablement par SI-DEP avant d'être exploitées par Santé Publique France qui publie les indicateurs.__
 
 Les fichiers de tables agrégées contiennent chacun :
-* Une colonne pour l'échelon géographique (France, région, dépatrement, code IRIS, code INSEE de la commmune, code de l'EPCI)
-* Une colonne pour le pas de temps (semaine glossante OU semaine calendaire OU date du jour)
+* Une colonne pour l'échelon géographique (France, région, département, code INSEE de la commmune, code IRIS du quartier, code de l'EPCI)
+* Une colonne pour le pas de temps (semaine glissante, semaine calendaire, date du jour)
 * Une colonne pour les variables d'agrégation (catégorie d'âge, catégories scolaires, sexe)
 * Une colonne pour les effectifs (population, patients testés positifs, nombre de patients testés)
 * Une colonne pour les indicateurs calculés 
@@ -130,8 +131,8 @@ Les fichiers de tables agrégées contiennent chacun :
    * La classe du taux de positivité (si applicable ie pour les fichiers IRIS, commune et EPCI)
 
 Par exemple :
-* la table agrégée __sp_reg_7j_cage10__ contient les données SI DEP (sp) au niveau régional (reg) pour les semaines glissantes (7j) et les classes d'âge de 10 ans
-* la table agrégée __sp_fra_heb_cage_scol__ contient les données SI DEP (sp) au niveau nationale (reg) pour les semaines calendaires (heb) et les classes d'âge scolaires
+* la table agrégée __sp_reg_7j_cage10__ contient les données SI DEP (sp) au niveau régional (reg) pour les semaines glissantes (7j) et les classes d'âge de 10 ans (cage10)
+* la table agrégée __sp_fra_heb_cage_scol__ contient les données SI DEP (sp) au niveau nationale (reg) pour les semaines calendaires (heb) et les classes d'âge scolaires (cage_scol)
 
 Remarques :
 * Les valeurs manquantes sont notées <NA>
