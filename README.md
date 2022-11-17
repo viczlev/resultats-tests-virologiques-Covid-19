@@ -24,19 +24,11 @@
 
 ### c. Description du jeu de données
 
-Le présent jeu de données renseigne à l'échelle __départementale et régionale__ :  
-* le nombre de personnes testées et le nombre de personnes déclarées positives par classe d'âge (quotidien et hebdomadaire) ;  
-* le nombre de personnes positives sur 7 jours glissants.  
+Le présent jeu de données renseigne __à différentes échelles géographiques__,à __différents échelons temporels__ et selon le sexe et la classe d'âge (voir partie 2 pour le détail) :  
+* le nombre de personnes testées
+* le nombre de personnes déclarées positives   
+* des indicateurs clés de suivis de l'épidémie que sont le taux d'incidence, le taux de positivité et le taux de dépistage
 
-Le présent jeu de données renseigne à l'échelle __nationale__ :  
-* le nombre de personnes testées et le nombre de personnes déclarées positives par sexe et classe d'âge (quotidien et hebdomadaire).  
-* Le taux de positivité correspond au nombre de tests positifs rapportés au nombre de tests réalisés. Il est calculé de la manière suivante : 100*nombre de test positif/ nombre de tests réalisés  
-
-Précisions : Si plusieurs prélèvements sont rapportés pour un même patient:
-
-* A compter du 29/08, les indicateurs issus des données de laboratoires (SI-DEP) présentent des taux d’incidence, de positivité et de dépistage corrigés en fonction des dépistages réalisés dans les aéroports à l’arrivée des vols internationaux.  
-
-La correction s’applique sur l’ensemble des données postérieures à la date du 12 août.  
 
 ## 1) Qui a créé ce jeu de données ? A quelles fins ?
 
@@ -113,12 +105,12 @@ Les fichiers de tables agrégées contiennent chacun :
 
 Par exemple :
 * la table agrégée __sp_reg_7j_cage10__ contient les données SI DEP (sp) au niveau régional (reg) pour les semaines glissantes (7j) et les classes d'âge de 10 ans
-* * la table agrégée __sp_fra_heb_cage_scol__ contient les données SI DEP (sp) au niveau nationale (reg) pour les semaines calendaires (heb) et les classes d'âge scolaires
+* la table agrégée __sp_fra_heb_cage_scol__ contient les données SI DEP (sp) au niveau nationale (reg) pour les semaines calendaires (heb) et les classes d'âge scolaires
 
 Remarques :
 * Les valeurs manquantes sont notées <NA>
 * Les données "tous âges confondus" sont identifiés par une valeur 0 dans la colonne "cl_age90"
-  
+ 
 
 ## 3) Quels sont les usages de ce jeu de données ?
 
