@@ -95,10 +95,15 @@ Comment Santé publique France produit-elle ses indicateurs virologiques ?
 * Extraction et calculs
 * Production d'une trentaine d'indicateurs
 
-#### 4) Publications quotidiennes
+#### 4) Publications
 
-* Actualisation quotidienne des indicateurs COVID-19 produits par Santé publique France sur Geodes et data.gouv.fr (à l’exception des week-end et des jours fériés depuis juin 2022)
-* La data recueillie par Santé publique France alimente TousAntiCovid ainsi que les points hebdomadaires de Santé publique France 
+* Quotidiennement :
+   * Actualisation des indicateurs clés COVID-19 produits par Santé publique France sur Geodes et data.gouv.fr (à l’exception des week-end et des jours fériés depuis juin 2022)
+   * Cartes d'indicateurs actualisées sur Geodes
+* Chaque semaine :
+   * La data recueillie par Santé publique France alimente les points épidémiologiques au niveau national et au niveau régional 
+* Autres :
+   * Publications scientifiques et rapports
 
 
 ## 2) Quelles catégories sont utilisées pour le représenter ?
