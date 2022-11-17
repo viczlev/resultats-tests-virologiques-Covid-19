@@ -71,16 +71,35 @@ Comme expliqué précedemment, les données ont été pseudonymisées par le sys
 
 * SI-DEP repose sur un partenariat entre le ministère des Solidarités et de la Santé (responsable du traitement), l’Assistance publique – Hôpitaux de Paris (AP-HP, maître d’œuvre), Santé publique France, les laboratoires de biologie médicale et leurs éditeurs de système d’information.
    
-### c. Chaîne de valeur du jeu de données : comment celui-ci est alimenté et à qui les données sont destinées à la fin de leur exploitation ?
+### c. Chaîne de valeur du jeu de données : depuis la collecte de la data jusqu'à la publication des indicateurs
 
 ![image](https://user-images.githubusercontent.com/115630281/202484627-4cb0487e-7b54-4d53-95eb-bd3d242d2309.png)
 
+Comment Santé publique France produit-elle ses indicateurs virologiques ?
 
-![Chaîne de valeur du jeu de données](https://www.santepubliquefrance.fr/var/site/storage/images/2/8/0/7/3107082-1-fre-FR/miniature_infog_covid_sidep_220721.JPG)
-[Cliquer ici pour télécharger l'image en meilleure qualité](https://www.santepubliquefrance.fr/content/download/362234/3107084?version=1)
+#### 1) Collecte de données auprès des professionnels de santé
 
-Expliquer le fonctionnement de l'outil national SI-DEP cf photo    
-Limite on peut enlever le dernier schéma, le premier est plus parlant non ?
+* Les professionnels de santé (pharmacies, hopitaux, laboratoires, campagnes de dépistage et autres professionnels) effectuent les tests de dépistage Covid-19 auprès des patients
+* Les informations du patient ainsi que les résultats des tests (RT-PCR, antigéniques et salivaires) sont ensuite saisies sur le portail SI-DEP par les professionnels de santé
+
+#### 2) Centralisation par SI-DEP
+
+* Le système d'information numérique SI-DEP centralise, compile et anonymise les résultats des tests 
+* Ce processus est sous le conntrôle du Ministère des solidarités et de la santé ainsi que du groupe Assistance publique - Hopitaux de Paris
+* Les données sont transmises entre les serveur via des flux en continu
+
+#### 3) Traitement des données anonymisées par Santé publique France
+
+* Collecte des données anonymisées de la veille dans la nuit
+* Vérification et traitement de la base anonymisée
+* Extraction et calculs
+* Production d'une trentaine d'indicateurs
+
+#### 4) Publications quotidiennes
+
+* Actualisation quotidienne des indicateurs COVID-19 produits par Santé publique France sur Geodes et data.gouv.fr (à l’exception des week-end et des jours fériés depuis juin 2022)
+* La data recueillie par Santé publique France alimente TousAntiCovid ainsi que les points hebdomadaires de Santé publique France 
+
 
 ## 2) Quelles catégories sont utilisées pour le représenter ?
 
