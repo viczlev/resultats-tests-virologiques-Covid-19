@@ -12,27 +12,27 @@
 * __Licence__ : Licence Ouverte / Open Licence version 2.0  
 * __Temporalité__ : quotidienne  
 * __Date de création__ : 29 mai 2020 (la deuxième base de données améliorée est utilisée depuis le 18 mai 2022)      
-* __Dernière mise à jour__ : 8 novembre 2022  
+* __Dernière mise à jour__ : 16 novembre 2022  
 * __Granularité de la couverture territoriale__ : Iris (quartiers INSEE)  
 * __Couverture territoriale__ : France  
 
-### b. Description qualitative générale (c'est que du copié/collé de data.gouv.fr ; faudra affiner/compléter)
+### b. Description qualitative générale
 
 * Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national.
 * Le __système d’information de dépistage (SI-DEP)__, en déploiement depuis le 13 mai 2020, est une plateforme sécurisée où sont systématiquement enregistrés les résultats des laboratoires des tests réalisés par l’ensemble des laboratoires de ville et établissements hospitaliers concernant le SARS-COV2.
 * Le fichier SI-DEP est une base nominative qui contient les résultats des tests sérologiques et des tests RT-PCR. Elargi depuis aux tests antigéniques ainsi qu’aux autotests supervisés, son remplissage conditionne le remboursement des soignants, pharmacies et laboratoires qui réalisent les tests du Covid-19.
-* La création de ce système d'information est autorisée pour une durée de 6 mois à compter de la fin de l'état d'urgence sanitaire par application du décret n° 2020-551 du 12 mai 2020 relatif aux systèmes d’information mentionnés à l’article 11 de la loi n° 2020-546 du 11 mai 2020 prorogeant l’état d’urgence sanitaire et complétant ses dispositions.
+* Ce système d'information est encadré par l'arrêté du 16 octobre 2020 modifiant l'arrêté du 10 juillet 2020 prescrivant les mesures générales nécessaires pour faire face à l'épidémie de covid-19 dans les territoires sortis de l'état d'urgence sanitaire et dans ceux où il a été prorogé
 * Le système d’information Dépistage est alimenté par les professionnels de santé réalisant les dépistages (voir en partie 2 la chaîne de valeur) 
 * __Sur la base de l’exploitation des données de SI-DEP et après pseudonymisation de celles-ci, Santé Publique France publie en open data les indicateurs de progression de l'épidémie sur data.gouv, sur Geodes ainsi que sur un dashboard disponible sur le site de santé Publique France : InfoCovidFrance__  
 
 ### c. Description du jeu de données
 
-Le jeu de données "Données de laboratoires pour le dépistage (à compter du 18/05/2022)" exploité par Santé Publique France renseigne __à différentes échelles géographiques__,à __différents échelons temporels__ et selon le sexe et la classe d'âge (voir partie 2 pour le détail) :  
+Le jeu de données "Données de laboratoires pour le dépistage (à compter du 18/05/2022)" exploité par Santé Publique France renseigne __à différentes échelles géographiques__, à __différents échelons temporels__ et selon le sexe et la classe d'âge (voir partie 2 pour le détail) :  
 * le nombre de personnes testées
 * le nombre de personnes déclarées positives   
 * des indicateurs clés de suivis de l'épidémie que sont le taux d'incidence, le taux de positivité et le taux de dépistage
 
-Comme décrit précedemment, les donnes ont été précedemment anonymisées par SI-DEP.
+Comme expliqué précedemment, les données ont été pseudonymisées par le système d'information avant d'être exploitées par Santé publique France.
 
 ## 1) Qui a créé ce jeu de données ? A quelles fins ?
 
@@ -43,7 +43,7 @@ Comme décrit précedemment, les donnes ont été précedemment anonymisées par
    * Sa mission : améliorer et protéger la santé des populations. Cette mission s'articule autour de trois axes majeurs :  
       * Anticiper  
       * Comprendre  
-      * Agir.  
+      * Agir  
 * En tant qu'agence scientifique et d’expertise du champ sanitaire, Santé publique France a en charge :  
    * l'observation épidémiologique et la surveillance de l'état de santé des populations ;  
    * la veille sur les risques sanitaires menaçant les populations ;  
@@ -86,9 +86,9 @@ Limite on peut enlever le dernier schéma, le premier est plus parlant non ?
 
 * Dans un souci de simplification, nous ne détaillerons de façon précise que la composition de la base de données utilisée depuis le 18 mai 2022 "Données de laboratoires pour le dépistage (à compter du 18/05/2022)" étant donné qu'elle est une amélioration de la base de données initiale.
 
-* Tous les jours, les données brutes sont retraitées afin de calculer des indicateurs complexes qui sont ensuite découpés sous forme de nombreuses agrégations géographiques et temporelles. La production des indicateurs est complexe et il est donc nécessaire que le modèle de données soit efficient pour que les objectifs de publication quotidienne de Santé publique France soient remplis. __Afin de minimiser le temps de production des indicateurs, les bases de données sont pré-agrégées selon la "définition patient" ainsi que selon différentes échelles géographiques : ce sont les tables agrégées__
+* Tous les jours, les données brutes collectées auprès des professionnels de santé sont retraitées après pseudonymisation afin de calculer des indicateurs complexes qui sont ensuite découpés sous forme de nombreuses agrégations géographiques et temporelles. La production des indicateurs est complexe et il est donc nécessaire que le modèle de données soit efficient pour que les objectifs de publication quotidienne de Santé publique France soient remplis. __Afin de minimiser le temps de production des indicateurs, les bases de données sont pré-agrégées selon la "définition patient" ainsi que selon différentes échelles géographiques : ce sont les tables agrégées__
 
-* Au cours des collectes de données (ie des tests de dépistage), sont collectées des données concernant 
+* Au cours des collectes de données auprès des professionnels de santé (ie des tests de dépistage), sont collectées des données concernant 
    * les personnes dépistées (nom, prénom, âge, sexe, date de naissance, e-mail, téléphone...) 
    * le prélèvement et son origine (n° RPPS du médecin prescripteur et du médecin traitant, n° de dossier, date et heure du dépistage...)
    * le résultat du test (positif, négatif, ininterprétable, non-conforme)
