@@ -4,7 +4,7 @@
 # Données relatives aux résultats des tests virologiques COVID-19 SI-DEP
 
 ## 0) Description de la base de données
-### a. Carte d'identité
+### A. Carte d'identité
 
 * __Nom__ : Données relatives aux résultats des tests virologiques COVID-19 SI-DEP puis Données de laboratoires pour le dépistage (à compter du 18/05/2022)  
 * __Où trouver le jeu de données__ : data.gouv.fr - [Données relatives aux résultats des tests virologiques COVID-19 (SI-DEP)](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/) et [Données de laboratoires pour le dépistage (A COMPTER DU 18/05/2022) - SI-DEP](https://www.data.gouv.fr/fr/datasets/donnees-de-laboratoires-pour-le-depistage-a-compter-du-18-05-2022-si-dep/)  
@@ -16,7 +16,7 @@
 * __Granularité de la couverture territoriale__ : de la maille nationale à la maille infracommunale (quartiers IRIS de l'INSEE)  
 * __Couverture territoriale__ : France  
 
-### b. Description qualitative générale
+### B. Description qualitative générale
 
 * Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national.
 * Le __système d’information de dépistage (SI-DEP)__, en déploiement depuis le 13 mai 2020, est une plateforme sécurisée où sont systématiquement enregistrés les résultats des laboratoires des tests réalisés par l’ensemble des laboratoires de ville et établissements hospitaliers concernant le SARS-COV2.
@@ -25,7 +25,7 @@
 * Le système d’information Dépistage est alimenté par les professionnels de santé réalisant les dépistages (voir en partie 2 la chaîne de valeur) 
 * __Sur la base de l’exploitation des données de SI-DEP et après pseudonymisation de celles-ci, Santé Publique France publie en open data les indicateurs de progression de l'épidémie sur data.gouv, sur Geodes ainsi que sur un dashboard disponible sur le site de santé Publique France : InfoCovidFrance__  
 
-### c. Description du jeu de données
+### C. Description du jeu de données
 
 Le jeu de données "Données de laboratoires pour le dépistage (à compter du 18/05/2022)" exploité par Santé Publique France renseigne __à différentes échelles géographiques__, à __différents échelons temporels__ et selon le sexe et la classe d'âge (voir partie 2 pour le détail) :  
 * le nombre de personnes testées
@@ -36,7 +36,7 @@ Comme expliqué précedemment, les données ont été pseudonymisées par le sys
 
 ## 1) Qui a créé ce jeu de données ? A quelles fins ?
 
-### a. Producteur du jeu de données : Santé Publique France
+### A. Producteur du jeu de données : Santé Publique France
 	
 * Santé publique France est l’agence nationale de santé publique.  
    * Créée en mai 2016 par ordonnance et décret, c’est un établissement public administratif sous tutelle du ministère chargé de la Santé.  
@@ -53,7 +53,7 @@ Comme expliqué précedemment, les données ont été pseudonymisées par le sys
    * la préparation et la réponse aux menaces, alertes et crises sanitaires.  
    
 	
-### b. A quelles fins le jeu de données est-il créé ? Mise en contexte (crise sanitaire)
+### B. A quelles fins le jeu de données est-il créé ? Mise en contexte (crise sanitaire)
 
 * Depuis le début de l'année 2020, la France est touchée par le virus de la Covid-19 qualifié de pandémie par l'OMS le 11 mars 2020. Aux débuts de l'épidémie, le gouvernement est dans l'incapacité de décompter exhaustivement le nombre de tests réalisés chaque semaine et par conséquent le nombre de cas de Covid identifiés. 
 * Le __Système d'Information national de dépistage populationnel (SI-DEP)__ est un outil numérique mis en oeuvre dans ce contexte afin d'accompagner le déploiement des tests virologiques de dépistage du Covid 19 et répondre agilement et rapidement aux besoins de :
@@ -68,7 +68,7 @@ Comme expliqué précedemment, les données ont été pseudonymisées par le sys
 
 * SI-DEP repose sur un partenariat entre le ministère des Solidarités et de la Santé (responsable du traitement), l’Assistance publique – Hôpitaux de Paris (AP-HP, maître d’œuvre), Santé publique France, les laboratoires de biologie médicale et leurs éditeurs de système d’information.
    
-### c. Chaîne de valeur du jeu de données : depuis la collecte de la data jusqu'à la publication des indicateurs
+### C. Chaîne de valeur du jeu de données : depuis la collecte de la data jusqu'à la publication des indicateurs
 
 ![image](https://user-images.githubusercontent.com/115630281/202484627-4cb0487e-7b54-4d53-95eb-bd3d242d2309.png)
 
