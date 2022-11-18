@@ -143,6 +143,8 @@ Remarques :
 
 * https://www.lemonde.fr/les-decodeurs/article/2022/01/10/comment-fonctionne-sidep-la-base-de-donnees-qui-contient-les-resultats-des-tests-covid-19_6108907_4355770.html
 * Télécharger le ppt suivant y'a plein d'infos dessus : https://www.cite-sciences.fr/fileadmin/fileadmin_CSI/fichiers/au-programme/lieux-ressources/cite-de-la-sante/_documents/JIS/Laurent_Treluyer_Journees_de_l_innovation_en_sante_3103_01042021_Universcience_sollicitation_pour_interview_ou_reportage_sur_SI-DEP.pptx
+
+BLABLABLA
 *
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?
