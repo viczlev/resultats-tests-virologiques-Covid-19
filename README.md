@@ -150,8 +150,10 @@ Ce jeu de données a été crée pour
 * Répondre aux besoins de contact-tracing
 * Surveiller la dynamique de l'épidémie
 * Prévenir et limiter la transmission du virus sur le territoire français
-* Rompre les chaines de contamination
 * Transmettre les résultats au plus vite pour mettre en oeuvre les mesures de prévention adaptées
+
+SI-DEP est très efficace et atteint ses objectifs dans son fonctionnement et atteint ses objectifs en catégorisant clairement ses données dans les catégories suivantes
+1. 
 
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?
