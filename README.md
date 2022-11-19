@@ -153,7 +153,11 @@ Ce jeu de données a été crée pour
 * Transmettre les résultats au plus vite pour mettre en oeuvre les mesures de prévention adaptées
 
 SI-DEP est très efficace et atteint ses objectifs dans son fonctionnement et atteint ses objectifs en catégorisant clairement ses données dans les catégories suivantes
-1. 
+1. Données concernant la personne dépistée (nom, date de naissance, téléphone, adresse mail et postale...)
+
+2. Données concernant le prévelement et son origine (numéro du dossier ou de prélèvement, date et heure du prélèvement, identifiant national, numéro RPPS du prescripteur et médecin traitant...)
+
+3. Données concernant le résultat du test (code de l'analyse, résultat de l'analyse positif ou négatif...)
 
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?
