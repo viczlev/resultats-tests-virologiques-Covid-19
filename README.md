@@ -146,7 +146,8 @@ Remarques :
 
 Comme nous avons vu au dessus, ce jeu de donné est fondamental dans la politique de lutte contre la COVID-19 de la France.
 Ce jeu de données a été crée pour
-- 
+
+_
 
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?
