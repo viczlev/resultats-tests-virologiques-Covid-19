@@ -147,7 +147,11 @@ Remarques :
 Comme nous avons vu au dessus, ce jeu de donné est fondamental dans la politique de lutte contre la COVID-19 de la France.
 
 Ce jeu de données a été crée pour
-*Répondre aux besoins de contact tracing
+* Répondre aux besoins de contact-tracing
+* Surveiller la dynamique de l'épidémie
+* Prévenir et limiter la transmission du virus sur le territoire français
+* Rompre les chaines de contamination
+* Transmettre les résultats au plus vite pour mettre en oeuvre les mesures de prévention adaptées
 
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?
