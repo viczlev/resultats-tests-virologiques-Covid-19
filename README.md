@@ -171,6 +171,38 @@ De plus, ces indicateurs pevent être déclinés pour une période de temps pré
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?
 
+Incohérence statistique 
+
+*Les données de laboratoires relatif au dépistage des résultats des tests virologiques COVID-19 SI-DEP ( le service intégré de dépistage et de prévention) font ça à de nombreuses limites :
+
+*La somme des tests indiqués pour chaque départements ou régions françaises est inférieure au nombre de tests indiqué pour la France représentant ainsi une incohérence majeure.
+
+*En effet, les fiches médicales de chaque patient ayant reçu un test virologique/dépistage étaient parfois incomplètes; le lieu de résidence de chaque personne n’a pas toujours été enregistré par le système SIDEP.
+
+*De ce fait, certains individus dont le département de résidence n’avait pas pu être localisé, avaient été comptabilisés au niveau de la France entière. Pour les personnes dont le département de résidence était connu, ceux-ci ont été fidèlement représentés sur les cartes. 
+
+*Il est difficile de suivre l’évolution de la pandémie avec des données incohérents et contradictoires. Le manque de précision épidémiologique dû aux fiches de tests incomplètes doit être suivis de prêt. Advenant une flambée de cas de dépistage positif dans l’Ouest de la France, les personnes dont la résidence est inconnue pourraient faire basculer la France entière dans un pallier d’alerte plus élevé. 
+
+Le temps d’attente
+
+*Selon les études menés pas xx, la base de données n’est pas appréciée de ces utilisateurs dû à certains de ses fléaux. 
+( à développer) 
+
+Une question de consentement 
+
+*Le recueillement des données transmit à la SIDEP débute très souvent chez le médecin généraliste.  Un professionnel de la santé par l’intermédiaire de sa plateforme numérique médicale Amelipro, peut ordonner si jugé nécessaire, la prescription d’un dépistage de covid-19. Bien que cette action ne soit pas malveillante, elle peut déclencher une série de répercussions qui nous pousse à réfléchir sur l’importance du consentement du patient. 
+
+*En effet, un médecin peut prescrire un dépistage de COVID-19 sans le consentement d’un patient. Sur sa plateforme médicale, le professionnel est aussi invité à renseigner les coordonnées des cas-contacts de son patient. 
+
+*Sous le contexte de la pandémie mondiale, un médecin est autorisé à violer le secret professionnel (C. pén., art. 226-13) par un nouveau cas de dérogation prévu par l’article 11 de la loi n° 2020-546 du 11 mai 2020 prorogeant l’état d’urgence sanitaire. Lorsque celui-ci dévoile le « statut covid-19 » de son patient à un tiers il divulgue non seulement des données à caractère personnel de celui-ci mais également ceux de son entourage. Il faut également noter que les patients n’ont pas le droit de refuser la transmission de leurs données de santés.
+
+*De plus, la prescription du test de COVID par le médecin, engendre l’obligation de la saisie des données personnelles des personnes dépistés dans la base de données SIDEP. Dans le cas où un patient est positif, le contact-tracing sera enclenché et une alerte passe sur le fichier contact COVID pour initier une enquête auprès des cas-contacts.
+
+*Les fichiers SIDEP est nécessaire pour surveiller la propagation du virus. Néanmoins, son déploiement convoque de nombreuses parties, en dépit du consentement du patient. Les utilisateurs multiples de cette base de données ont à confronter de nombreux dilemmes dont la cyber-sécurité et la divulgation de données personnelles. 
+
+
+
+
 * https://www.lemonde.fr/les-decodeurs/article/2022/01/10/comment-fonctionne-sidep-la-base-de-donnees-qui-contient-les-resultats-des-tests-covid-19_6108907_4355770.html
 * Enormément de critiques pendant la crise sur la façon de compter les cas de Covid  
 * Actualisation de la base de données parfois longue --> problèmes de logistique
@@ -180,4 +212,8 @@ De plus, ces indicateurs pevent être déclinés pour une période de temps pré
 ## 5) Quelle réalités ces données/indicateurs sont-ils censés représenter ?
 
 * xx  
+
+##SOURCES 
+*https://www.dalloz-actualite.fr/flash/etat-d-urgence-pour-donnees-de-sante-ii-sidep-et-contact-covid#.Y3p04OzMKgQ![image](https://user-images.githubusercontent.com/118362232/202925405-f6728590-7dc1-4e98-b5c2-8792597188ad.png)
+
 
