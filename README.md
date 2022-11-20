@@ -139,7 +139,7 @@ Remarques :
 * Les données "tous âges confondus" sont identifiés par une valeur 0 dans la colonne "cl_age90"
  
 
-## 3) Quels sont les usages de ce jeu de données ?
+## 3) Quels sont les usages de ce jeu de données ? --> partie à revoir car trop de redites avec la partie précédente. pas besoin de donner les raisons de création de la base de données ni les catégories car ce sont des parties précédentes !! En revanche, il faut expliciter l'usage final des bases de données : quelles publications, dans quels buts, à quelle fréquence, utilisés par qui...
 
 
 Comme expliqué précedemment, ce jeu de donné est fondamental dans la politique de lutte contre la COVID-19 de la France.
@@ -171,7 +171,7 @@ De plus, ces indicateurs pevent être déclinés pour une période de temps pré
 
 Les données de laboratoires relatives au dépistage des résultats des tests virologiques COVID-19 SI-DEP (le service intégré de dépistage et de prévention) font face à de nombreuses limites :
 
-__Incohérence statistique__
+### Incohérence statistique
 
 * La somme des tests indiqués pour chaque départements ou régions françaises est inférieure au nombre de tests indiqué pour la France représentant ainsi une incohérence majeure.
 
@@ -181,12 +181,12 @@ __Incohérence statistique__
 
 * Il est difficile de suivre l’évolution de la pandémie avec des données incohérents et contradictoires. Le manque de précision épidémiologique dû aux fiches de tests incomplètes doit être suivis de prêt. Advenant une flambée de cas de dépistage positif dans l’Ouest de la France, les personnes dont la résidence est inconnue pourraient faire basculer la France entière dans un pallier d’alerte plus élevé. 
 
-__Le temps d’attente__
+### Le temps d’attente
 
 Selon les études menés pas xx, la base de données n’est pas appréciée de ces utilisateurs dû à certains de ses fléaux. 
 ( à développer) 
 
-__Une question de consentement__ 
+### Une question de consentement
 
 * Le recueillement des données transmit à la SIDEP débute très souvent chez le médecin généraliste.  Un professionnel de la santé par l’intermédiaire de sa plateforme numérique médicale Amelipro, peut ordonner si jugé nécessaire, la prescription d’un dépistage de covid-19. Bien que cette action ne soit pas malveillante, elle peut déclencher une série de répercussions qui nous pousse à réfléchir sur l’importance du consentement du patient. 
 
@@ -198,11 +198,11 @@ __Une question de consentement__
 
 * Les fichiers SIDEP est nécessaire pour surveiller la propagation du virus. Néanmoins, son déploiement convoque de nombreuses parties, en dépit du consentement du patient. Les utilisateurs multiples de cette base de données ont à confronter de nombreux dilemmes dont la cyber-sécurité et la divulgation de données personnelles. 
 
-__Dépendance à la coopération des laboratoires__
+### Dépendance à la coopération des laboratoires
 
 * Les fichiers de la base de données SI-DEP sont alimentés en premier lieu par les professionnels de santé qui réalisent les tests virulogiques, et notamment par les laboratoires. De fait, le fichier SI-DEP nécessite la bonne volonté et la coopération des laboratoires pour que les données soient remontées et publiées et donc que le suivi de l'épidémie puisse se faire dans les meilleures conditions.
 * Cependant, depuis le 26 octobre 2022, __certains laboratoires de biologie libéraux ont décidé de cesser d'alimenter la base de données SI-DEP__ en protestation à une baisse de leurs tarifs prévue dans le projet de loi de financement de la Sécurité Sociale. 
-*
+
 > « Devant la surdité des pouvoirs publics, nous avons décidé de suspendre la transmission des données de dépistage sur la plate-forme SI-Dep à partir du 27 octobre »   
 *Propos déclarés par Alain Le Meur, le président de l’Alliance pour la biologie médicale, à l'AFP et rapportés par le Monde dans un article du 26 octobre 2022*
 
@@ -210,10 +210,19 @@ __Dépendance à la coopération des laboratoires__
 
 * Cette baisse du nombre de dépistage liée à la mobilisation des laboratoires privés __a pour conséquence de rendre non-interprétable le taux d'incidence calculé par Santé publique France__. Afin de conserver un regard sur l'évolution de l'épidémie, Santé publique France continue néanmoins de calculer les indicateurs à partir des tests antigéniques réalisés en  pharmacie et qui représentent plus de la moitié des tests réalisés en France. La base de données a donc été fortement affaiblie par l'arrêt d'alimention de la base de données par de nombreux laboratoires et cela limite la significativité des indicateurs calculés. Antoine Flahaut, directeur de l’Institut de santé globale et épidémiologiste va même plus loin en affirmant que les statistiques ont été rendu vaines à cause de la grève des biologistes.
 
-<img width="229" alt="image" src="https://user-images.githubusercontent.com/115630281/202931938-e635f780-1b2d-45a4-81bd-fae63dcba862.png">
+<img width="415" alt="image" src="https://user-images.githubusercontent.com/115630281/202932338-b65815b7-5b90-4d42-9f97-96dedd2c80e0.png">
 
 
 * __En somme, on comprend donc que le bon fonctionnement de la base de données est dépendant de la bonne volonté des professionnels de santé et de leur capacité à fournir les données brutes qui servent à calculer des indicateurs pertinents et suffisamment significatifs.__
+
+### Critique de la méthodologie
+
+* La méthodologie utilisée pour suivre l'épidémie de Covid-19 est également fortement critiquée et souvent comparée à la méthodologie adoptée par d'autres pays. En effet, avec des méthodologies plus ou moins différentes, les données recueillies dans la base de données ne seront pas les mêmes et certains spécialistes font l'hypothèse que certaines méthodologies permettent d'obtenir des données plus significatives qu'avec un recours à une méthodologie différente.
+
+* Par exemple, Antoine Flahaut (épidémiologiste et directeur de l'Institut de santé globale) déplore que la France n'ait pas suivi une méthodologie similaire à la méthodologie anglosaxonne qui consiste à effectuer un sondage hebdomadaire auprès d'un échantillon représentatif de la population afin de mieux se rendre compte de l'évolution de l'épidémie.
+
+<img width="426" alt="image" src="https://user-images.githubusercontent.com/115630281/202932363-d474e21e-474e-4cb9-b74d-fd4b420f6fca.png">
+
 
 ## 5) Quelle réalités ces données/indicateurs sont-ils censés représenter ?
 
