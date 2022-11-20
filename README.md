@@ -166,7 +166,7 @@ Ces données permettent au Ministère de la Santé de calculer des indicateurs e
 
 * Taux de dépistage : le nombre de tests dont le résultat est exploitable, le positif ou le négatif, rapporté à la population française pour 100 000 habitants. Encore une fois, cela peut être calculé au niveau nationale, régionale ou départementale pour pouvoir faire des comparaisons sur l'ensemble du territoire
 
-De plus, ces indicateurs pevent être déclinés pour une période de temps précise. Cela permet de pouvoir analyser en profondeur et de manière pointue les statistiques liées au COVID-19 en France. Bien evidemment, il faut se rappeler que ces indicateurs sont utilisés par le gouvernement et les services de santé dans un but de savoir, mais aussi potentiellement dans un but politique. 
+De plus, ces indicateurs pevent être déclinés pour une période de temps précise. Cela permet de pouvoir analyser en profondeur et de manière pointue les statistiques liées au COVID-19 en France. Bien evidemment, il faut se rappeler que ces indicateurs sont utilisés par le gouvernement et les services de santé dans un but de savoir, mais aussi potentiellement dans un but politique. Pouvoir relayer un certain message politique, quel qu'il soit, est grandement facilité par la création de ce jeu de données - il est évident que nous avons tous entendus parler des ces indicateurs dans les médias, détournés par tous les bords politiques !
 
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?
