@@ -141,18 +141,16 @@ Remarques :
 
 ## 3) Quels sont les usages de ce jeu de données ?
 
-* https://www.lemonde.fr/les-decodeurs/article/2022/01/10/comment-fonctionne-sidep-la-base-de-donnees-qui-contient-les-resultats-des-tests-covid-19_6108907_4355770.html
-* Télécharger le ppt suivant y'a plein d'infos dessus : https://www.cite-sciences.fr/fileadmin/fileadmin_CSI/fichiers/au-programme/lieux-ressources/cite-de-la-sante/_documents/JIS/Laurent_Treluyer_Journees_de_l_innovation_en_sante_3103_01042021_Universcience_sollicitation_pour_interview_ou_reportage_sur_SI-DEP.pptx
 
-Comme nous avons vu au dessus, ce jeu de donné est fondamental dans la politique de lutte contre la COVID-19 de la France.
+Comme expliqué précedemment, ce jeu de donné est fondamental dans la politique de lutte contre la COVID-19 de la France.
 
-Ce jeu de données a été crée pour
+Ce jeu de données a été crée en priorité pour
 * Répondre aux besoins de contact-tracing
 * Surveiller la dynamique de l'épidémie
 * Prévenir et limiter la transmission du virus sur le territoire français
 * Transmettre les résultats au plus vite pour mettre en oeuvre les mesures de prévention adaptées
 
-SI-DEP est très efficace et atteint ses objectifs dans son fonctionnement et atteint ses objectifs en catégorisant clairement ses données dans les catégories suivantes
+SI-DEP est très efficace et atteint ses objectifs en catégorisant clairement ses données dans les catégories suivantes
 1. Données concernant la personne dépistée (nom, date de naissance, téléphone, adresse mail et postale...)
 
 2. Données concernant le prévelement et son origine (numéro du dossier ou de prélèvement, date et heure du prélèvement, identifiant national, numéro RPPS du prescripteur et médecin traitant...)
@@ -201,19 +199,13 @@ __Une question de consentement__
 * Les fichiers SIDEP est nécessaire pour surveiller la propagation du virus. Néanmoins, son déploiement convoque de nombreuses parties, en dépit du consentement du patient. Les utilisateurs multiples de cette base de données ont à confronter de nombreux dilemmes dont la cyber-sécurité et la divulgation de données personnelles. 
 
 
-
-
-* https://www.lemonde.fr/les-decodeurs/article/2022/01/10/comment-fonctionne-sidep-la-base-de-donnees-qui-contient-les-resultats-des-tests-covid-19_6108907_4355770.html
-* Enormément de critiques pendant la crise sur la façon de compter les cas de Covid  
-* Actualisation de la base de données parfois longue --> problèmes de logistique
-* Actualité : pour dénoncer la coupe budgétaire dans le budget de la Sécurité Sociale, les biologistes __ne déclareront plus les résultats des tests Covid dans la base SI-DEP__ et ce à compter du __jeudi 27 octobre__. "Devant la surdité des pouvoirs publics, nous avons décidé de suspendre la transmission des données de dépistage sur la plateforme SI-DEP à partir du 27 octobre", a annoncé Alain Le Meur à l'AFP.  
 	
 
 ## 5) Quelle réalités ces données/indicateurs sont-ils censés représenter ?
 
 * xx  
 
-##SOURCES 
+## SOURCES 
 *https://www.dalloz-actualite.fr/flash/etat-d-urgence-pour-donnees-de-sante-ii-sidep-et-contact-covid#.Y3p04OzMKgQ![image](https://user-images.githubusercontent.com/118362232/202925405-f6728590-7dc1-4e98-b5c2-8792597188ad.png)
 
 
