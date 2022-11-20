@@ -169,9 +169,9 @@ De plus, ces indicateurs pevent être déclinés pour une période de temps pré
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?
 
-__Incohérence statistique__
+Les données de laboratoires relatives au dépistage des résultats des tests virologiques COVID-19 SI-DEP (le service intégré de dépistage et de prévention) font face à de nombreuses limites :
 
-* Les données de laboratoires relatif au dépistage des résultats des tests virologiques COVID-19 SI-DEP ( le service intégré de dépistage et de prévention) font ça à de nombreuses limites :
+__Incohérence statistique__
 
 * La somme des tests indiqués pour chaque départements ou régions françaises est inférieure au nombre de tests indiqué pour la France représentant ainsi une incohérence majeure.
 
@@ -198,8 +198,22 @@ __Une question de consentement__
 
 * Les fichiers SIDEP est nécessaire pour surveiller la propagation du virus. Néanmoins, son déploiement convoque de nombreuses parties, en dépit du consentement du patient. Les utilisateurs multiples de cette base de données ont à confronter de nombreux dilemmes dont la cyber-sécurité et la divulgation de données personnelles. 
 
+__Dépendance à la coopération des laboratoires__
 
-	
+* Les fichiers de la base de données SI-DEP sont alimentés en premier lieu par les professionnels de santé qui réalisent les tests virulogiques, et notamment par les laboratoires. De fait, le fichier SI-DEP nécessite la bonne volonté et la coopération des laboratoires pour que les données soient remontées et publiées et donc que le suivi de l'épidémie puisse se faire dans les meilleures conditions.
+* Cependant, depuis le 26 octobre 2022, __certains laboratoires de biologie libéraux ont décidé de cesser d'alimenter la base de données SI-DEP__ en protestation à une baisse de leurs tarifs prévue dans le projet de loi de financement de la Sécurité Sociale. 
+*
+> « Devant la surdité des pouvoirs publics, nous avons décidé de suspendre la transmission des données de dépistage sur la plate-forme SI-Dep à partir du 27 octobre »
+*Propos déclarés par Alain Le Meur, le président de l’Alliance pour la biologie médicale, à l'AFP et rapportés par le Monde dans un article du 26 octobre 2022*
+
+* Les mouvements de pression des laboratoires qui plaident leur cause auprès du gouvernement contribue à __gêner l'alimentation de la base de données SI-DEP__ et cela __entrave donc le bon suivi de l'épidémie par Santé publique France__. Les chiffres proposés au grand public ne refètent donc pas la vérité depuis le 26 octobre. La DREES a en effet expliqué dans un communiqué de presse datant du 3 novembre 2022 que "le vendredi 28 octobre, le nombre de tests RT-PCR remontés dans SI-Dep par les laboratoires du secteur privé était 81 % inférieur au niveau observé le vendredi précédent".
+
+* Cette baisse du nombre de dépistage liée à la mobilisation des laboratoires privés __a pour conséquence de rendre non-interprétable le taux d'incidence calculé par Santé publique France__. Afin de conserver un regard sur l'évolution de l'épidémie, Santé publique France continue néanmoins de calculer les indicateurs à partir des tests antigéniques réalisés en  pharmacie et qui représentent plus de la moitié des tests réalisés en France. La base de données a donc été fortement affaiblie par l'arrêt d'alimention de la base de données par de nombreux laboratoires et cela limite la significativité des indicateurs calculés. Antoine Flahaut, directeur de l’Institut de santé globale et épidémiologiste va même plus loin en affirmant que les statistiques ont été rendu vaines à cause de la grève des biologistes.
+
+<img width="229" alt="image" src="https://user-images.githubusercontent.com/115630281/202931938-e635f780-1b2d-45a4-81bd-fae63dcba862.png">
+
+
+* __En somme, on comprend donc que le bon fonctionnement de la base de données est dépendant de la bonne volonté des professionnels de santé et de leur capacité à fournir les données brutes qui servent à calculer des indicateurs pertinents et suffisamment significatifs.__
 
 ## 5) Quelle réalités ces données/indicateurs sont-ils censés représenter ?
 
