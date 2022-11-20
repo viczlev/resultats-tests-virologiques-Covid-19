@@ -171,7 +171,7 @@ De plus, ces indicateurs pevent être déclinés pour une période de temps pré
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?
 
-*_Incohérence statistique_
+#__Incohérence statistique__
 
 *Les données de laboratoires relatif au dépistage des résultats des tests virologiques COVID-19 SI-DEP ( le service intégré de dépistage et de prévention) font ça à de nombreuses limites :
 
@@ -183,12 +183,12 @@ De plus, ces indicateurs pevent être déclinés pour une période de temps pré
 
 *Il est difficile de suivre l’évolution de la pandémie avec des données incohérents et contradictoires. Le manque de précision épidémiologique dû aux fiches de tests incomplètes doit être suivis de prêt. Advenant une flambée de cas de dépistage positif dans l’Ouest de la France, les personnes dont la résidence est inconnue pourraient faire basculer la France entière dans un pallier d’alerte plus élevé. 
 
-*_Le temps d’attente_
+#__Le temps d’attente__
 
 *Selon les études menés pas xx, la base de données n’est pas appréciée de ces utilisateurs dû à certains de ses fléaux. 
 ( à développer) 
 
-*_Une question de consentement_ 
+#__Une question de consentement_ 
 
 *Le recueillement des données transmit à la SIDEP débute très souvent chez le médecin généraliste.  Un professionnel de la santé par l’intermédiaire de sa plateforme numérique médicale Amelipro, peut ordonner si jugé nécessaire, la prescription d’un dépistage de covid-19. Bien que cette action ne soit pas malveillante, elle peut déclencher une série de répercussions qui nous pousse à réfléchir sur l’importance du consentement du patient. 
 
