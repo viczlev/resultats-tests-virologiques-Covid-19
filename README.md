@@ -196,7 +196,23 @@ Selon les études menés pas xx, la base de données n’est pas appréciée de 
 
 * De plus, la prescription du test de COVID par le médecin, engendre l’obligation de la saisie des données personnelles des personnes dépistés dans la base de données SIDEP. Dans le cas où un patient est positif, le contact-tracing sera enclenché et une alerte passe sur le fichier contact COVID pour initier une enquête auprès des cas-contacts.
 
-* Les fichiers SIDEP est nécessaire pour surveiller la propagation du virus. Néanmoins, son déploiement convoque de nombreuses parties, en dépit du consentement du patient. Les utilisateurs multiples de cette base de données ont à confronter de nombreux dilemmes dont la cyber-sécurité et la divulgation de données personnelles. 
+* Les fichiers SIDEP est nécessaire pour surveiller la propagation du virus. Néanmoins, son déploiement convoque de nombreuses parties, en dépit du consentement du patient. Les utilisateurs multiples de cette base de données ont à confronter de nombreux dilemmes dont la cyber-sécurité et la divulgation de données personnelles.
+
+### Des "bugs" de l'outil numérique SI-DEP ont pu affecter la collecte des données brutes de dépistage
+
+* On peut observer sur le graphique ci-dessous issu du dernier rapport hebdomadaire de Santé publique France sur l'évolution du Covid-19 en France datant du 16 novembre 2022 que le taux de tests de dépistage (courbes bleues) a pu être très important à certains moments de l'épidémie.
+
+<img width="547" alt="image" src="https://user-images.githubusercontent.com/115630281/202933247-e39fa3b5-0481-43d9-8d1e-8d73719937b3.png">
+
+* Des ralentissements voire même des bugs ont pu être observés par des professionnels de santé au moment de saisir les données des tests virulogiques, notamment en fin de journée. Par exemple à la fin 2021 et au début 2022, le nombre de tests réalisés était très important (plus de 7 millions lors de la semaine de Noël 2021) et les pharmaciens ont pu constater de nombreux bugs à ce moment-là, liés à la saturation des serveurs. D'après la DGS (direction générale de la santé), "ce n'est pas le "nombre de tests réalisé par jour" qui pose problème mais la "concentration sur une plage donnée" qui provoque la saturation du système.
+
+> « Le système sature car il n'est pas calibré pour recevoir autant de résultats tests »   
+> Propos déclarés par Gilles Bonnefond, porte-parole de l'Union des syndicats des pharmaciens d'officine et rapportés par Le Figaro dans un article du 5 janvier 2022
+
+* Ces dysfonctionnements de la plateforme SI-DEP sont agaçants pour le personnel qui réalise ces tests et cela affecte donc leur opinion vis-à-vis du système SI-DEP et rend pénible leur travail de saisie de données des tests. En effet, une solution pour éviter les saturations du système serait de déconcentrer la saisie des données brutes dans le systèmes et de l'étaler tout au long de la journée plutôt que de saisir une masse de données importantes en fin de journée et ainsi saturer le système à ses "heures de pointes". On comprend alors que ces personnes ne soient pas enjouées à l'idée de transmettre les données via SI-DEP car non seulement cela représente un travail en plus mais cela peut également être pénible lorsque des bugs sont rencontrés.
+
+> « Nous pouvons concevoir qu'il soit impossible d'éviter des bugs, mais cela arrive trop fréquemment»   
+Propos déclarés par Philippe Besset, président de la Fédération des syndicats pharmaceutiques de France (FSPF) et rapportés par Le Figaro dans un article du 5 janvier 2022
 
 ### Dépendance à la coopération des laboratoires
 
