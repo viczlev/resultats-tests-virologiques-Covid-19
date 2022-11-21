@@ -207,12 +207,12 @@ Selon les études menés pas xx, la base de données n’est pas appréciée de 
 * Des ralentissements voire même des bugs ont pu être observés par des professionnels de santé au moment de saisir les données des tests virulogiques, notamment en fin de journée. Par exemple à la fin 2021 et au début 2022, le nombre de tests réalisés était très important (plus de 7 millions lors de la semaine de Noël 2021) et les pharmaciens ont pu constater de nombreux bugs à ce moment-là, liés à la saturation des serveurs. D'après la DGS (direction générale de la santé), "ce n'est pas le "nombre de tests réalisé par jour" qui pose problème mais la "concentration sur une plage donnée" qui provoque la saturation du système.
 
 > « Le système sature car il n'est pas calibré pour recevoir autant de résultats tests »   
-> Propos déclarés par Gilles Bonnefond, porte-parole de l'Union des syndicats des pharmaciens d'officine et rapportés par Le Figaro dans un article du 5 janvier 2022
+*Propos déclarés par Gilles Bonnefond, porte-parole de l'Union des syndicats des pharmaciens d'officine et rapportés par Le Figaro dans un article du 5 janvier 2022*
 
 * Ces dysfonctionnements de la plateforme SI-DEP sont agaçants pour le personnel qui réalise ces tests et cela affecte donc leur opinion vis-à-vis du système SI-DEP et rend pénible leur travail de saisie de données des tests. En effet, une solution pour éviter les saturations du système serait de déconcentrer la saisie des données brutes dans le systèmes et de l'étaler tout au long de la journée plutôt que de saisir une masse de données importantes en fin de journée et ainsi saturer le système à ses "heures de pointes". On comprend alors que ces personnes ne soient pas enjouées à l'idée de transmettre les données via SI-DEP car non seulement cela représente un travail en plus mais cela peut également être pénible lorsque des bugs sont rencontrés.
 
 > « Nous pouvons concevoir qu'il soit impossible d'éviter des bugs, mais cela arrive trop fréquemment»   
-Propos déclarés par Philippe Besset, président de la Fédération des syndicats pharmaceutiques de France (FSPF) et rapportés par Le Figaro dans un article du 5 janvier 2022
+*Propos déclarés par Philippe Besset, président de la Fédération des syndicats pharmaceutiques de France (FSPF) et rapportés par Le Figaro dans un article du 5 janvier 2022*
 
 ### Dépendance à la coopération des laboratoires
 
