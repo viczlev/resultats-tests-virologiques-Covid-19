@@ -245,6 +245,14 @@ Selon les études menés pas xx, la base de données n’est pas appréciée de 
 * xx  
 
 ## SOURCES 
-*https://www.dalloz-actualite.fr/flash/etat-d-urgence-pour-donnees-de-sante-ii-sidep-et-contact-covid#.Y3p04OzMKgQ![image](https://user-images.githubusercontent.com/118362232/202925405-f6728590-7dc1-4e98-b5c2-8792597188ad.png)
+* data.gouv.fr
+* santepubliquefrance.fr - [Chiffres clés et évolution de la COVID-10 en France et dans le monde](https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde)
+* solidarites-sante.gouv.fr - [Contact-COVID et SI-DEP, les outils numériques du dépistage Covid-19](https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/tout-savoir-sur-le-covid-19/article/contact-covid-et-si-dep-les-outils-numeriques-du-depistage-covid-19)
+
+* "Budget de la « Sécu » : les laboratoires d’analyse menacent de cesser la transmission des données des tests de dépistage du Covid-19", *Le Monde*, 26 octobre 2022 ; [lien](https://www.lemonde.fr/societe/article/2022/10/26/budget-de-la-secu-les-laboratoires-d-analyse-menacent-de-cesser-la-transmission-des-donnees-des-tests-de-depistage-du-covid-19_6147347_3224.html)
+* SANCHEZ, "Covid-19 : le bras de fer entre les laboratoires d’analyse et le gouvernement perturbe le suivi de l’épidémie", *Le Monde*, 14 novembre 2022 ; [lien](https://www.lemonde.fr/les-decodeurs/article/2022/11/14/covid-19-le-bras-de-fer-entre-les-laboratoires-d-analyse-et-le-gouvernement-perturbe-le-suivi-de-l-epidemie_6149857_4355770.html)
+* 
+https://www.dalloz-actualite.fr/flash/etat-d-urgence-pour-donnees-de-sante-ii-sidep-et-contact-covid#.Y3p04OzMKgQ![image](https://user-images.githubusercontent.com/118362232/202925405-f6728590-7dc1-4e98-b5c2-8792597188ad.png)
+* SANCHEZ, "Covid-19 : la plate-forme SI-Dep, qui contient les résultats des tests de dépistage, rencontre des pannes", *Le Monde*, 5 avril 2022, [lien](https://www.lemonde.fr/les-decodeurs/article/2022/04/05/covid-19-la-plate-forme-si-dep-qui-contient-les-resultats-des-tests-de-depistage-rencontre-des-pannes_6120743_4355770.html)
 
 
