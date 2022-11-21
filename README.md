@@ -12,10 +12,10 @@
     A. [Producteur du jeu de données : Santé Publique France](#1.A)   
     B. [A quelles fins le jeu de données est-il créé ? Mise en contexte (crise sanitaire)](#1.B)   
     C. [Chaîne de valeur du jeu de données : depuis la collecte de la data jusqu'à la publication des indicateurs](#1.C)   
-        i) [Collecte de données auprès des professionnels de santé](#1.C.i)   
-	ii) [Centralisation par SI-DEP](#1.c.ii)   
-	iii) [Traitement des données anonymisées par Santé publique France](#1.c.iii)   
-	iv) [Publications](#1.c.iv)   
+    	i) [Collecte de données auprès des professionnels de santé](#1.C.i)   
+	ii) [Centralisation par SI-DEP](#1.C.ii)   
+	iii) [Traitement des données anonymisées par Santé publique France](#1.C.iii)  
+	iv) [Publications](#1.C.iv)   
 2) [Quelles catégories sont utilisées pour le représenter ?](#2)   
 3) [Quels sont les usages de ce jeu de données ?](#3)  
 4) [Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?](#4)   
@@ -25,7 +25,7 @@
     D. [Des "bugs" de l'outil numérique SI-DEP ont pu affecter la collecte des données brutes de dépistage](#4.D)   
     E. [Dépendance à la coopération des laboratoires](#4.E)   
 5) [Quelle réalités ces données/indicateurs sont-ils censés représenter ?](#5)   
-Sources [Sources](#sources)   
+6) [Sources](#sources)   
 
 ## 0) Introduction - Description de la base de données <a name="0"></a>
 ### A. Carte d'identité <a name="0.A"></a>
