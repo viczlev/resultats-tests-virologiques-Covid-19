@@ -270,7 +270,7 @@ Selon les études menés pas xx, la base de données n’est pas appréciée de 
 
 * xx  
 
-## Sources <a name="sources"></a>
+## 6) Sources <a name="sources"></a>
 * data.gouv.fr
 * santepubliquefrance.fr - [Chiffres clés et évolution de la COVID-10 en France et dans le monde](https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde)
 * solidarites-sante.gouv.fr - [Contact-COVID et SI-DEP, les outils numériques du dépistage Covid-19](https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/tout-savoir-sur-le-covid-19/article/contact-covid-et-si-dep-les-outils-numeriques-du-depistage-covid-19)
