@@ -130,9 +130,12 @@ C.f. Partie 3
 * Tous les jours, les données brutes collectées auprès des professionnels de santé sont retraitées après pseudonymisation afin de calculer des indicateurs complexes qui sont ensuite découpés sous forme de nombreuses agrégations géographiques et temporelles. La production des indicateurs est complexe et il est donc nécessaire que le modèle de données soit efficient pour que les objectifs de publication quotidienne de Santé publique France soient remplis. __Afin de minimiser le temps de production des indicateurs, les bases de données sont pré-agrégées selon la "définition patient" ainsi que selon différentes échelles géographiques : ce sont les tables agrégées__
 
 * Au cours des collectes de données auprès des professionnels de santé (ie des tests de dépistage), sont collectées des données concernant 
-   * les personnes dépistées (nom, prénom, âge, sexe, date de naissance, e-mail, téléphone...) 
-   * le prélèvement et son origine (n° RPPS du médecin prescripteur et du médecin traitant, n° de dossier, date et heure du dépistage...)
-   * le résultat du test (positif, négatif, ininterprétable, non-conforme)
+   1. Les personnes dépistées (nom, prénom, âge, sexe, date de naissance, e-mail, téléphone...) 
+   
+   2. Le prélèvement et son origine (n° RPPS du médecin prescripteur et du médecin traitant, n° de dossier, date et heure du dépistage...)
+   
+   3. Le résultat du test (positif, négatif, ininterprétable, non-conforme)
+
 
 __En revanche, les données sont anonymisées préalablement par SI-DEP avant d'être exploitées par Santé Publique France qui publie les indicateurs.__
 
@@ -142,11 +145,16 @@ Les fichiers de tables agrégées contiennent chacun :
 * Une colonne pour les variables d'agrégation (catégorie d'âge, catégories scolaires, sexe)
 * Une colonne pour les effectifs (population, patients testés positifs, nombre de patients testés)
 * Une colonne pour les indicateurs calculés 
-   * Taux d'incidence
-   * Taux de positivité
-   * Taux de dépistage
+   * Taux d'incidence : nombre de personne positifs ramené à la population française (pour 100 000 habitants), cela peut être calculé au niveau nationale, régionale ou départemental notamment pour pouvoir voir les différences entre les parties du territoire
+   
+   * Taux de positivité : le nombre de personnes positives parmis le nombre de personnes testées - cela nous permet de pouvoir tirer des conclusions sur les tendances sur le dépistage et la fréquence d'un résultat positif
+   
+   * Taux de dépistage :le nombre de tests dont le résultat est exploitable, le positif ou le négatif, rapporté à la population française pour 100 000 habitants. Encore une fois, cela peut être calculé au niveau nationale, régionale ou départementale pour pouvoir faire des comparaisons sur l'ensemble du territoire
+
    * La classe du taux d'incidence (si applicable ie pour les fichiers IRIS, commune et EPCI)
+   
    * La classe du taux de dépistage (si applicable ie pour les fichiers IRIS, commune et EPCI)
+   
    * La classe du taux de positivité (si applicable ie pour les fichiers IRIS, commune et EPCI)
 
 Par exemple :
@@ -165,25 +173,8 @@ Remarques :
 
 Comme expliqué précedemment, ce jeu de donné est fondamental dans la politique de lutte contre la COVID-19 de la France.
 
-Ce jeu de données a été crée en priorité pour
-* Répondre aux besoins de contact-tracing
-* Surveiller la dynamique de l'épidémie
-* Prévenir et limiter la transmission du virus sur le territoire français
-* Transmettre les résultats au plus vite pour mettre en oeuvre les mesures de prévention adaptées
-
-SI-DEP est très efficace et atteint ses objectifs en catégorisant clairement ses données dans les catégories suivantes
-1. Données concernant la personne dépistée (nom, date de naissance, téléphone, adresse mail et postale...)
-
-2. Données concernant le prévelement et son origine (numéro du dossier ou de prélèvement, date et heure du prélèvement, identifiant national, numéro RPPS du prescripteur et médecin traitant...)
-
-3. Données concernant le résultat du test (code de l'analyse, résultat de l'analyse positif ou négatif...)
 
 Ces données permettent au Ministère de la Santé de calculer des indicateurs et des statistiques sur la situation de la pandémie en France, et la santé des français. Utilisés par les médias pour relayer les informations de manière plus synthétique et compréhensible pour le grand public - vous avez certainement entendu parler de certains de ces indicateurs tel le
-* Taux d'incidence : nombre de personne positifs ramené à la population française (pour 100 000 habitants), cela peut être calculé au niveau nationale, régionale ou départemental notamment pour pouvoir voir les différences entre les parties du territoire
-
-* Taux de positivité : le nombre de personnes positives parmis le nombre de personnes testées - cela nous permet de pouvoir tirer des conclusions sur les tendances sur le dépistage et la fréquence d'un résultat positif
-
-* Taux de dépistage : le nombre de tests dont le résultat est exploitable, le positif ou le négatif, rapporté à la population française pour 100 000 habitants. Encore une fois, cela peut être calculé au niveau nationale, régionale ou départementale pour pouvoir faire des comparaisons sur l'ensemble du territoire
 
 De plus, ces indicateurs pevent être déclinés pour une période de temps précise. Cela permet de pouvoir analyser en profondeur et de manière pointue les statistiques liées au COVID-19 en France. Bien evidemment, il faut se rappeler que ces indicateurs sont utilisés par le gouvernement et les services de santé dans un but de savoir, mais aussi potentiellement dans un but politique. Pouvoir relayer un certain message politique, quel qu'il soit, est grandement facilité par la création de ce jeu de données - il est évident que nous avons tous entendus parler des ces indicateurs dans les médias, détournés par tous les bords politiques !
 
