@@ -181,16 +181,6 @@ Les acteurs principales qui ont usages de ce jeu de données sont:
 
 3. La presse - voici on nous avons certaines divergences. La presse est bien évidemment pas neutre, elle est de tout bord politique. La gestion de la crise de la COVID-19 a été extrêmement crtiquée par des populations diverses, d'opinions divergentes. Voilà le rôle joué par la presse. S'emparant de cette base de données et des statistiques et indicateurs qui en découlent, la presse peut les présenter dans ses publications sous de diverses lumières afin de souligner certains sujets qui leur tiennent à coeur et qui résonnent avec leurs lecteurs.
 
-#### iv) Publications <a name="1.C.iv"></a>
-
-* Quotidiennement :
-   * Actualisation des indicateurs clés COVID-19 produits par Santé publique France sur Geodes et data.gouv.fr (à l’exception des week-end et des jours fériés depuis juin 2022)
-   * Cartes d'indicateurs actualisées sur Geodes
-* Chaque semaine :
-   * La data recueillie par Santé publique France alimente les points épidémiologiques au niveau national et au niveau régional 
-* Autres :
-   * Publications scientifiques et rapports
-
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ? <a name="4"></a>
 
