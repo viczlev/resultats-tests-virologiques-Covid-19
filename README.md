@@ -25,7 +25,8 @@
     D. [Des "bugs" de l'outil numérique SI-DEP ont pu affecter la collecte des données brutes de dépistage](#4.D)   
     E. [Dépendance à la coopération des laboratoires](#4.E)   
 5) [Quelle réalités ces données/indicateurs sont-ils censés représenter ?](#5)   
-6) [Sources](#sources)   
+6) [Entretien avec M. Johnny Platon, data scientist chez Santé publique France](#6)
+7) [Sources](#sources)   
 
 ## 0) Introduction - Description de la base de données <a name="0"></a>
 ### A. Carte d'identité <a name="0.A"></a>
@@ -270,7 +271,11 @@ Selon les études menés pas xx, la base de données n’est pas appréciée de 
 
 * xx  
 
-## 6) Sources <a name="sources"></a>
+## 6) Entretien avec M. Johnny Platon, data scientist chez Santé publique France <a name="6"></a>
+
+* xxx   
+
+## 7) Sources <a name="sources"></a>
 * data.gouv.fr
 * santepubliquefrance.fr - [Chiffres clés et évolution de la COVID-10 en France et dans le monde](https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19/coronavirus-chiffres-cles-et-evolution-de-la-covid-19-en-france-et-dans-le-monde)
 * solidarites-sante.gouv.fr - [Contact-COVID et SI-DEP, les outils numériques du dépistage Covid-19](https://solidarites-sante.gouv.fr/soins-et-maladies/maladies/maladies-infectieuses/coronavirus/tout-savoir-sur-le-covid-19/article/contact-covid-et-si-dep-les-outils-numeriques-du-depistage-covid-19)
