@@ -64,12 +64,11 @@ Comme expliqué précedemment, les données ont été pseudonymisées par le sys
 
 ### A. Producteur du jeu de données : Santé Publique France <a name="1.A"></a>
 	
-Santé publique France est l’agence nationale de santé publique.  
-* Créée en mai 2016 par ordonnance et décret, c’est un établissement public administratif sous tutelle du ministère chargé de la Santé. 
-* Sa mission : améliorer et protéger la santé des populations. Cette mission s'articule autour de trois axes majeurs :  
-   * Anticiper  
-   * Comprendre  
-   * Agir  
+Santé publique France est l’agence nationale de santé publique. Créée en mai 2016 par ordonnance et décret, c’est un établissement public administratif sous tutelle du ministère chargé de la Santé. Sa mission est d'améliorer et protéger la santé des populations. Cette mission s'articule autour de trois axes majeurs :  
+* Anticiper  
+* Comprendre  
+* Agir   
+
 En tant qu'agence scientifique et d’expertise du champ sanitaire, Santé publique France a en charge :  
 * l'observation épidémiologique et la surveillance de l'état de santé des populations ;  
 * la veille sur les risques sanitaires menaçant les populations ;  
