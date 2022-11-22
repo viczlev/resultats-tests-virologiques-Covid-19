@@ -182,6 +182,7 @@ Les acteurs principales qui ont usages de ce jeu de données sont:
 3. La presse - voici on nous avons certaines divergences. La presse est bien évidemment pas neutre, elle est de tout bord politique. La gestion de la crise de la COVID-19 a été extrêmement crtiquée par des populations diverses, d'opinions divergentes. Voilà le rôle joué par la presse. S'emparant de cette base de données et des statistiques et indicateurs qui en découlent, la presse peut les présenter dans ses publications sous de diverses lumières afin de souligner certains sujets qui leur tiennent à coeur et qui résonnent avec leurs lecteurs.
 
 
+
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ? <a name="4"></a>
 
 Les données de laboratoires relatives au dépistage des résultats des tests virologiques COVID-19 SI-DEP (le service intégré de dépistage et de prévention) font face à de nombreuses limites :
@@ -257,7 +258,16 @@ Selon les études menés pas xx, la base de données n’est pas appréciée de 
 
 ## 5) Quelle réalités ces données/indicateurs sont-ils censés représenter ? <a name="5"></a>
 
-* xx  
+Ces jeu de données est presenté de manière très brut, seulement de la data pure. Il faut la manipuler, la transformer en indicateurs et en statistiques afin de pouvoir la digérer et en tirer des conclusions précises et générales. Brut, çela est très difficile. Ainsi, en manipulant et puis en analysant notre jeu de données SI-DEP, nous pouvons voir qu'elle représente une réalité sociale, économique et politique de la France actuelle. Nous pouvons dessiner des tendances qui se dégagent de ces données, représentant différentes réalités. 
+
+1. L'évolution des décès toutes causes confondues en 2020 par rapport à la même période - +27% en France MAIS quand nous voyons de plus près, +91% en île-de-France et +55% dans le Grand Est. Ainsi, nous voyons l'utilité d'analyser ce jeu de données de manière filtrée afin de voir là où les tendances se dessinent. Dans ces décès, nous constatons également que les personnes âgées sont plus touchées que le reste de la population avec une augmentation de +31% des décèsde plus de 85 and, comparé à +13% des décès chez ceux entre 50 et 65 ans.
+
+2. Taux de vaccination. Comme nous avons pu le constater durant ces deux dernières années, la vaccination et les politiques de vaccination menées par le gouvernement français sont extrêmement contestées. Çela se remarque plus dans certaines tranches d'âge par leur opinions politiques ou par leur rapport à la médecine considérée comme "intrusive" et leur probabilité de contracter le virus, et se reflète dans les données du SI-DEP. Nous avant chez ceux âgés de plus de 75 ans un taux de non-vaccination d'environ 8%, alors que chez les jeunes âgés entre 20 et 30 ans un taux de non-vaccination de presque 20%. Également, le taux de non-vaccination peut s'analyser d'un point de vue des sexes. Ainsi, nous avons un taux de non-vaccination de preque 10 points de pourcentage de plus que chez les femmes - je vous laisse en tirer des potentiels conclusions sociales. 
+
+3. L'impact des mutations et variations du COVID-19. Quand nous pensions en avoir enfin terminé avec le COVID-19, nous avons entendu parler de différentes variantes à ne plus en finir, Omicron, beta étant les plus connus. Le jeu de données de SI-DEP nous permet également de voir l'éfficacité du vaccin fâce aux variantes. En effet, l'éfficacité vaccinale contre les variants bêta et gamma apparaît comme inférieure à celles estimées pour le variant alpha. 
+
+4. L'éfficacité du vaccin dans la durée. Voici une grande contestation de la part du public. Personne ne s'était imaginé que nous devrions faire des piqûres de rappel du vaccin régulièrement. Selon les données les plus récentes du SI-DEP, il y aurait une très nette diminution de l'efficacité vaccinale (d'un parcours complet) contre les formes symptomatiques du COVID, qui descendrait de 90% à 57% après six mois de la complétude du parcours vaccinal chez les personnes de 50 ans ou plus, et descendrait jusqu'à 39% chez les 85 ans et plus. Après une dose de rappel, l'éfficacité vaccinale retrouve un niveau très élevé sans distinction selon la classe d'âge.
+
 
 ## 6) Entretien avec M. Johnny Platon, data scientist chez Santé publique France <a name="6"></a>
 
