@@ -64,19 +64,19 @@ Comme expliqué précedemment, les données ont été pseudonymisées par le sys
 
 ### A. Producteur du jeu de données : Santé Publique France <a name="1.A"></a>
 	
-* Santé publique France est l’agence nationale de santé publique.  
-   * Créée en mai 2016 par ordonnance et décret, c’est un établissement public administratif sous tutelle du ministère chargé de la Santé.  
-   * Sa mission : améliorer et protéger la santé des populations. Cette mission s'articule autour de trois axes majeurs :  
-      * Anticiper  
-      * Comprendre  
-      * Agir  
-* En tant qu'agence scientifique et d’expertise du champ sanitaire, Santé publique France a en charge :  
-   * l'observation épidémiologique et la surveillance de l'état de santé des populations ;  
-   * la veille sur les risques sanitaires menaçant les populations ;  
-   * le lancement de l'alerte sanitaire ;  
-   * la promotion de la santé et la réduction des risques pour la santé ;  
-   * le développement de la prévention et de l'éducation pour la santé ;  
-   * la préparation et la réponse aux menaces, alertes et crises sanitaires.  
+Santé publique France est l’agence nationale de santé publique.  
+* Créée en mai 2016 par ordonnance et décret, c’est un établissement public administratif sous tutelle du ministère chargé de la Santé. 
+* Sa mission : améliorer et protéger la santé des populations. Cette mission s'articule autour de trois axes majeurs :  
+   * Anticiper  
+   * Comprendre  
+   * Agir  
+En tant qu'agence scientifique et d’expertise du champ sanitaire, Santé publique France a en charge :  
+* l'observation épidémiologique et la surveillance de l'état de santé des populations ;  
+* la veille sur les risques sanitaires menaçant les populations ;  
+* le lancement de l'alerte sanitaire ;  
+* la promotion de la santé et la réduction des risques pour la santé ;  
+* le développement de la prévention et de l'éducation pour la santé ;  
+* la préparation et la réponse aux menaces, alertes et crises sanitaires.  
    
 	
 ### B. A quelles fins le jeu de données est-il créé ? Mise en contexte (crise sanitaire) <a name="1.B"></a>
