@@ -204,13 +204,10 @@ Les acteurs principaux qui ont usage de ce jeu de données sont:
 
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ? <a name="4"></a>
 
-Les données de laboratoires relatives au dépistage des résultats des tests virologiques COVID-19 SI-DEP (le service intégré de dépistage et de prévention) font face à de nombreuses limites :
 
-### A. Incohérence statistique --> Anaïs à préciser <a name="4.A"></a>
+### A. Incohérence statistique 
 
-La somme des tests indiqués pour chaque départements ou régions françaises est inférieure au nombre de tests indiqué pour la France représentant ainsi une incohérence majeure.
-
-En effet, les fiches médicales de chaque patient ayant reçu un test virologique/dépistage étaient parfois incomplètes; le lieu de résidence de chaque personne n’a pas toujours été enregistré par le système SIDEP.
+Les données de laboratoires relatives au dépistage des résultats des tests virologiques COVID-19 SI-DEP (le service intégré de dépistage et de prévention) font face à de nombreuses limites: Actuellemnt en France, la somme des tests indiqués pour chaque départements ou régions françaises est inférieure au nombre de tests indiqué pour la France représentant ainsi une incohérence majeure.En effet, les fiches médicales de chaque patient ayant reçu un test virologique/dépistage étaient parfois incomplètes; le lieu de résidence de chaque personne n’a pas toujours été enregistré par le système SIDEP.
 
 De ce fait, certains individus dont le département de résidence n’avait pas pu être localisé, avaient été comptabilisés au niveau de la France entière. Pour les personnes dont le département de résidence était connu, ceux-ci ont été fidèlement représentés sur les cartes. 
 
@@ -222,7 +219,7 @@ Lors d’une très forte hausse du nombre de cas, la plateforme SI-DEP fait face
 Il est important de noter que c’est n’est pas la première fois que des incidents surviennent. En août 2022, à deux reprises pendant plusieurs heures les professionnels de la santé ne pouvaient pas rentrer les résultats de test antigénique sur la plateforme Si-Dep. Ce problème a empêché à plusieurs patients vaccinés de récupérer leur passe sanitaire, provoquant ainsi leur accès à des lieux nécessitant une passe sanitaire. 
 
 
-### C. La question des données personnelles --> Anaïs à compléter avec menace cyberattaques/fuite de données <a name="4.C"></a>
+### C. La question des données personnelles 
 
 Le recueillement des données transmit à la SIDEP débute très souvent chez le médecin généraliste.  Un professionnel de la santé par l’intermédiaire de sa plateforme numérique médicale Amelipro, peut ordonner si jugé nécessaire, la prescription d’un dépistage de covid-19. Bien que cette action ne soit pas malveillante, elle peut déclencher une série de répercussions qui nous pousse à réfléchir sur l’importance du consentement du patient. 
 
@@ -233,6 +230,8 @@ Sous le contexte de la pandémie mondiale, un médecin est autorisé à violer l
 De plus, la prescription du test de COVID par le médecin, engendre l’obligation de la saisie des données personnelles des personnes dépistés dans la base de données SIDEP. Dans le cas où un patient est positif, le contact-tracing sera enclenché et une alerte passe sur le fichier contact COVID pour initier une enquête auprès des cas-contacts.
 
 Les fichiers SIDEP est nécessaire pour surveiller la propagation du virus. Néanmoins, son déploiement convoque de nombreuses parties, en dépit du consentement du patient. Les utilisateurs multiples de cette base de données ont à confronter de nombreux dilemmes dont la cyber-sécurité et la divulgation de données personnelles.
+
+De plus, les données collectées lors des tests peuvent avoir à affronter quelques problèmes de sécurité. L’élargissement du dépistage et la forte hausse de l’utilisation de plateforme vulnérabilisent les données de plusieurs Français. En effet, en octobre 2021 une fuite massive de résultats de tests antigéniques a eu lieu : plus de 700 000 résultats de tests et de données personnelles étaient accessibles dus à une faille sur le site de Francetest.
 
 ### D. Des "bugs" de l'outil numérique SI-DEP ont pu affecter la collecte des données brutes de dépistage <a name="4.D"></a>
 
