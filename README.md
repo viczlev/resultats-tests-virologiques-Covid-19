@@ -11,6 +11,7 @@ L'enquête est réalisée par Aliette de Cacqueray, Anaïs des Rosiers et Victoi
     A. [Carte d'identité](#0.A)   
     B. [Description qualitative générale](#0.B)   
     C. [Description du jeu de données](#0.C)   
+    
 1) [Qui a créé ce jeu de données ? A quelles fins ?](#1)   
     A. [Producteur du jeu de données : Santé Publique France](#1.A)   
     B. [A quelles fins le jeu de données est-il créé ? Mise en contexte (crise sanitaire)](#1.B)   
@@ -19,16 +20,25 @@ L'enquête est réalisée par Aliette de Cacqueray, Anaïs des Rosiers et Victoi
 	ii) [Centralisation par SI-DEP](#1.C.ii)   
 	iii) [Traitement des données anonymisées par Santé publique France](#1.C.iii)  
 	iv) [Publications](#1.C.iv)   
+	
 2) [Quelles catégories sont utilisées pour le représenter ?](#2)   
+
+
 3) [Quels sont les usages de ce jeu de données ?](#3)  
+
 4) [Quelles sont les limites ou les critiques rencontrées par ce jeu de données ?](#4)   
     A. [Incohérence statistique](#4.A)   
     B. [Le temps d’attente](#4.B)   
     C. [Une question de consentement](#4.C)   
     D. [Des "bugs" de l'outil numérique SI-DEP ont pu affecter la collecte des données brutes de dépistage](#4.D)   
     E. [Dépendance à la coopération des laboratoires](#4.E)   
+    
 5) [Quelle réalités ces données/indicateurs sont-ils censés représenter ?](#5)   
+
+
 6) [Entretien avec un data scientist travaillant chez Santé publique France](#6)
+
+
 7) [Sources](#sources)   
 
 ## 0) Introduction - Description de la base de données <a name="0"></a>
