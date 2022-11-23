@@ -7,7 +7,9 @@ Nous présentons les résultats de notre enquête collective menée en novembre 
 
 L'enquête est réalisée par Aliette de Cacqueray, Anaïs des Rosiers et Victoire Leveilley.
 
-![image](https://user-images.githubusercontent.com/115630281/203542453-d0a87ea5-78e4-41aa-84eb-d164317519be.png)
+
+![image](https://user-images.githubusercontent.com/115630281/203543220-41b1f794-6566-4efb-b087-697f2ab655e9.png)
+
 
 
 # Table des matières   
