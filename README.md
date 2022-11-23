@@ -297,10 +297,11 @@ Nous avons notamment contacté GEODES et nous avons obtenu une réponse positive
 
 La personne que nous avons interrogé travaille à la direction DATA de Santé publique France et son équipe a été en charge de produire les indicateurs de vaccination en France pendant la période Covid. L'équipe recevait les données de la part de la Direction Numérique de la Santé puis les consommait pour produire les indicateurs avec l'aide d'un prestataire pour la gestion technique de la base de données.
 
-Les principales difficultés rencontrées ont été liées à :
+Les principales difficultés rencontrées dans la gestion de cette base de données ont été liées à :
 * la volumétrie très importante de la base (la volumétrie a bien entendu évolué entre les débuts de la campagne de vaccination et aujourd'hui)   
 * la qualité des données parfois compromise par des erreurs provenant des outils numériques utilisés lors de la saisie des données
 * la communication avec le grand public
+* des délais parfois longs d'accès à certaines données le temps d'obtenir des autorisations (enjeu de protection des données personnelles)
 
 [Lien Google Doc de retranscription de l'entretien](https://docs.google.com/document/d/15-7KpxwxdH3VvAd5yGnnim50DVudQReQGXXs5-GM_fw/edit?usp=sharing)
 
