@@ -4,7 +4,11 @@
 # Données relatives aux résultats des tests virologiques COVID-19 SI-DEP
 
 Nous présentons les résultats de notre enquête collective menée en novembre 2022 sur la base de données de Santé publique France relative aux résultats des tests virologiques Covid-19 en France.   
+
 L'enquête est réalisée par Aliette de Cacqueray, Anaïs des Rosiers et Victoire Leveilley.
+
+![image](https://user-images.githubusercontent.com/115630281/203542453-d0a87ea5-78e4-41aa-84eb-d164317519be.png)
+
 
 # Table des matières   
 0) [Introduction - Description de la base de données](#0)   
