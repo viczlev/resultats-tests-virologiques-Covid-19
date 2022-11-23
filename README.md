@@ -216,10 +216,11 @@ De ce fait, certains individus dont le département de résidence n’avait pas 
 
 Il est difficile de suivre l’évolution de la pandémie avec des données incohérents et contradictoires. Le manque de précision épidémiologique dû aux fiches de tests incomplètes doit être suivis de prêt. Advenant une flambée de cas de dépistage positif dans l’Ouest de la France, les personnes dont la résidence est inconnue pourraient faire basculer la France entière dans un pallier d’alerte plus élevé. 
 
-### B. Le temps d’attente --> Anaïs à compléter <a name="4.B"></a>
+### B. Le temps d’attente 
 
-Selon les études menés pas xx, la base de données n’est pas appréciée de ces utilisateurs dû à certains de ses fléaux. 
-( à développer) 
+Lors d’une très forte hausse du nombre de cas, la plateforme SI-DEP fait face à une grande pression. Depuis novembre 2022, les dépistages de COVID sont en forte hausse. Sous la montée fulgurante des tests l’infrastructure technique subit des ralentissements importants. Lors de certaines « heures de pointe » l’interface surcharge dû aux nombres trop importants de saisie sur une courte période. La direction générale de la santé (DGS) stipule que les incidents sont souvent provoqués par des tentatives d’attaque en déni de service (DDOS) qui envoient des connexions simultanées vers le système provoquant un arrêt de service.
+Il est important de noter que c’est n’est pas la première fois que des incidents surviennent. En août 2022, à deux reprises pendant plusieurs heures les professionnels de la santé ne pouvaient pas rentrer les résultats de test antigénique sur la plateforme Si-Dep. Ce problème a empêché à plusieurs patients vaccinés de récupérer leur passe sanitaire, provoquant ainsi leur accès à des lieux nécessitant une passe sanitaire. 
+
 
 ### C. La question des données personnelles --> Anaïs à compléter avec menace cyberattaques/fuite de données <a name="4.C"></a>
 
