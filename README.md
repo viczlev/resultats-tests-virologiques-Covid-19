@@ -295,7 +295,14 @@ Nous avions initialement choisi d'étudier une base de données liée à la vacc
 
 Nous avons notamment contacté GEODES et nous avons obtenu une réponse positive à notre demande d'entretien. GEODES nous a mis en contact avec un data scientist travaillant chez Santé publique France et contributeur à la base de données relative à la vaccination Covid-19 en France, qui a accepté de répondre à nos questions dans un entretien le 23/11/2022. Les questions/réponses porteront donc sur la base de données liée à la vaccination et non sur la base de données liée aux tests de dépistage mais nous pourrons réaliser certains parallèles entre les deux, avec l'hypothèse que la gestion de ces deux bases de données font face à des enjeux et des problématiques similaires.
 
-Lien google doc de retranscription de l'entretien --> Victoire, rajouter le lien 
+La personne que nous avons interrogé travaille à la direction DATA de Santé publique France et son équipe a été en charge de produire les indicateurs de vaccination en France pendant la période Covid. L'équipe recevait les données de la part de la Direction Numérique de la Santé puis les consommait pour produire les indicateurs avec l'aide d'un prestataire pour la gestion technique de la base de données.
+
+Les principales difficultés rencontrées ont été liées à :
+* la volumétrie très importante de la base (la volumétrie a bien entendu évolué entre les débuts de la campagne de vaccination et aujourd'hui)   
+* la qualité des données parfois compromise par des erreurs provenant des outils numériques utilisés lors de la saisie des données
+* la communication avec le grand public
+
+[Lien Google Doc de retranscription de l'entretien](https://docs.google.com/document/d/15-7KpxwxdH3VvAd5yGnnim50DVudQReQGXXs5-GM_fw/edit?usp=sharing)
 
 
 ## 7) Sources <a name="sources"></a>
