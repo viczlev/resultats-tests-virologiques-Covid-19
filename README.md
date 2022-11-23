@@ -28,7 +28,7 @@ L'enquête est réalisée par Aliette de Cacqueray, Anaïs des Rosiers et Victoi
     D. [Des "bugs" de l'outil numérique SI-DEP ont pu affecter la collecte des données brutes de dépistage](#4.D)   
     E. [Dépendance à la coopération des laboratoires](#4.E)   
 5) [Quelle réalités ces données/indicateurs sont-ils censés représenter ?](#5)   
-6) [Entretien avec M. Johnny Platon, data scientist chez Santé publique France](#6)
+6) [Entretien avec un data scientist travaillant chez Santé publique France](#6)
 7) [Sources](#sources)   
 
 ## 0) Introduction - Description de la base de données <a name="0"></a>
@@ -273,12 +273,13 @@ Ces jeu de données est presenté de manière très brut, seulement de la data p
 4. L'éfficacité du vaccin dans la durée. Voici une grande contestation de la part du public. Personne ne s'était imaginé que nous devrions faire des piqûres de rappel du vaccin régulièrement. Selon les données les plus récentes du SI-DEP, il y aurait une très nette diminution de l'efficacité vaccinale (d'un parcours complet) contre les formes symptomatiques du COVID, qui descendrait de 90% à 57% après six mois de la complétude du parcours vaccinal chez les personnes de 50 ans ou plus, et descendrait jusqu'à 39% chez les 85 ans et plus. Après une dose de rappel, l'éfficacité vaccinale retrouve un niveau très élevé sans distinction selon la classe d'âge.
 
 
-## 6) Entretien avec M. Johnny Platon, data scientist chez Santé publique France <a name="6"></a>
+## 6) Entretien avec un data scientist travaillant chez Santé publique France <a name="6"></a>
 
 Nous avions initialement choisi d'étudier une base de données liée à la vaccination : "Données relatives aux personnes vaccinées contre la Covid-19 VAC-SI" et nous avions donc contacté les créateurs et gestionnaires de cette base de données avant de changer de sujet pour choisir la base de données liée aux tests de dépistage qui nous semblait plus intéressante à analyser.
 
-Nous avons notamment contacté GEODES et nous avons obtenu une réponse positive à notre demande d'entretien. GEODES nous a mis en contact avec M. Johnny Platon, data scientist chez Santé publique France et contributeur à la base de données relative à la vaccination Covid-19 en France, qui a accepté de répondre à nos questions dans un entretien le 23/11/2022. Les questions/réponses porteront donc sur la base de données liée à la vaccination et non sur la base de données liée aux tests de dépistage mais nous pourrons réaliser certains parallèles entre les deux, avec l'hypothèse que la gestion de ces deux bases de données font face à des enjeux et des problématiques similaires.
+Nous avons notamment contacté GEODES et nous avons obtenu une réponse positive à notre demande d'entretien. GEODES nous a mis en contact avec un data scientist chez Santé publique France et contributeur à la base de données relative à la vaccination Covid-19 en France, qui a accepté de répondre à nos questions dans un entretien le 23/11/2022. Les questions/réponses porteront donc sur la base de données liée à la vaccination et non sur la base de données liée aux tests de dépistage mais nous pourrons réaliser certains parallèles entre les deux, avec l'hypothèse que la gestion de ces deux bases de données font face à des enjeux et des problématiques similaires.
 
+Lien google doc de retranscription de l'entretien --> Victoire, rajouter le lien 
 
 
 ## 7) Sources <a name="sources"></a>
