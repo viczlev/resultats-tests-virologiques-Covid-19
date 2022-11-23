@@ -3,6 +3,9 @@
 
 # Données relatives aux résultats des tests virologiques COVID-19 SI-DEP
 
+Nous présentons les résultats de notre enquête collective menée en novembre 2022 sur la base de données de Santé publique France relative aux résultats des tests virologiques Covid-19 en France.
+L'enquête est réalisée par Aliette de Cacqueray, Anaïs des Rosiers et Victoire Leveilley.
+
 # Table des matières   
 0) [Introduction - Description de la base de données](#0)   
     A. [Carte d'identité](#0.A)   
@@ -173,13 +176,13 @@ Comme expliqué précedemment, ce jeu de donné est fondamental dans la politiqu
 
 En plus d'être décliné pour des personnes précises et décliné dans une délimitation géographique, ces indicateurs pevent être déclinés pour une période de temps précise. Cela permet de pouvoir analyser en profondeur et de manière pointue les statistiques liées au COVID-19 en France. Bien evidemment, il faut se rappeler que ces indicateurs sont utilisés par le gouvernement et les services de santé dans un but de savoir, mais aussi potentiellement dans un but politique. Pouvoir relayer un certain message politique, quel qu'il soit, est grandement facilité par la création de ce jeu de données - il est évident que nous avons tous entendus parler des ces indicateurs dans les médias, détournés par tous les bords politiques ! La data peut sembler objectif, par sa nature mathématique et factuelle, hors, en réalité, différents acteurs peuvent s'emparer de la data afin de relayer un message ou mettre en évidence une tendance. 
 
-Les acteurs principales qui ont usages de ce jeu de données sont:
+Les acteurs principaux qui ont usage de ce jeu de données sont:
 
-1. Santé Publique France - l'agence nationale de santé publique qui a pour mission d'améliorer et de protéger la santé des populations, elle est sous la tutelle du Minsitère chargé de la Santé. Santé Pblique France publie et actualise les indicateurs clées liés au COVID-19 en France depuis le début de la pandémie (taux de dépistage, taux de positivité, quantité de cas confirmés, pourcentage d'évolution depuis la dernière semaine, mois..). Ils se chargent d'actualiser ces indicateurs quotidiennement, à l'excéption des weekend et des jours feriés. Ces indicateurs sont très importants pour le grand public et pour d'autres organismes européennes et internationales qui voudraient suivre l'évolution de la pandémie dans d'autres pays pour pouvoir potentiellement réagir. Ces indicateurs sont également traduits par des cartes pour pouvoir montrer la data de manière plus visuelle est pédagogique. 
+1. Santé Publique France - l'agence nationale de santé publique qui a pour mission d'améliorer et de protéger la santé des populations, elle est sous la tutelle du Minsitère chargé de la Santé. Santé Publique France publie et actualise les indicateurs clées liés au COVID-19 en France depuis le début de la pandémie (taux de dépistage, taux de positivité, quantité de cas confirmés, pourcentage d'évolution depuis la dernière semaine, mois..). Ils se chargent d'actualiser ces indicateurs quotidiennement, à l'exception des weekend et des jours feriés. Ces indicateurs sont très importants pour le grand public et pour d'autres organismes européens et internationaux qui voudraient suivre l'évolution de la pandémie dans d'autres pays pour pouvoir potentiellement réagir. Ces indicateurs sont également traduits par des cartes sur le site Geodes pour pouvoir montrer la data de manière plus visuelle est pédagogique. 
 
 2. Organismes politiques divers - alimenté par la data et les indicateurs publiés par Santé Publique France, d'autres organismes politiques, tel le gouvernement français, le ministère des affaires étrangères ou encore le ministère de la santé utilisent la data de ce jeu de données pour pouvoir créer des politiques publiques cohérentes avec les statistiques. Il est primordial de pouvoir expliquer ces actions politiques, et qu'ils soient ancrés dans de la data concrète.
 
-3. La presse - voici on nous avons certaines divergences. La presse est bien évidemment pas neutre, elle est de tout bord politique. La gestion de la crise de la COVID-19 a été extrêmement crtiquée par des populations diverses, d'opinions divergentes. Voilà le rôle joué par la presse. S'emparant de cette base de données et des statistiques et indicateurs qui en découlent, la presse peut les présenter dans ses publications sous de diverses lumières afin de souligner certains sujets qui leur tiennent à coeur et qui résonnent avec leurs lecteurs.
+3. La presse - voici on nous avons certaines divergences. La presse n'est bien évidemment pas neutre, elle est de tout bord politique. La gestion de la crise de la COVID-19 a été extrêmement crtiquée par des populations diverses, d'opinions divergentes. Voilà le rôle joué par la presse. S'emparant de cette base de données et des statistiques et indicateurs qui en découlent, la presse peut les présenter dans ses publications sous de diverses lumières afin de souligner certains sujets qui leur tiennent à coeur et qui résonnent avec leurs lecteurs.
 
 
 
@@ -187,7 +190,7 @@ Les acteurs principales qui ont usages de ce jeu de données sont:
 
 Les données de laboratoires relatives au dépistage des résultats des tests virologiques COVID-19 SI-DEP (le service intégré de dépistage et de prévention) font face à de nombreuses limites :
 
-### A. Incohérence statistique <a name="4.A"></a>
+### A. Incohérence statistique --> Anaïs à préciser <a name="4.A"></a>
 
 La somme des tests indiqués pour chaque départements ou régions françaises est inférieure au nombre de tests indiqué pour la France représentant ainsi une incohérence majeure.
 
@@ -197,12 +200,12 @@ De ce fait, certains individus dont le département de résidence n’avait pas 
 
 Il est difficile de suivre l’évolution de la pandémie avec des données incohérents et contradictoires. Le manque de précision épidémiologique dû aux fiches de tests incomplètes doit être suivis de prêt. Advenant une flambée de cas de dépistage positif dans l’Ouest de la France, les personnes dont la résidence est inconnue pourraient faire basculer la France entière dans un pallier d’alerte plus élevé. 
 
-### B. Le temps d’attente <a name="4.B"></a>
+### B. Le temps d’attente --> Anaïs à compléter <a name="4.B"></a>
 
 Selon les études menés pas xx, la base de données n’est pas appréciée de ces utilisateurs dû à certains de ses fléaux. 
 ( à développer) 
 
-### C. Une question de consentement <a name="4.C"></a>
+### C. La question des données personnelles --> Anaïs à compléter avec menace cyberattaques/fuite de données <a name="4.C"></a>
 
 Le recueillement des données transmit à la SIDEP débute très souvent chez le médecin généraliste.  Un professionnel de la santé par l’intermédiaire de sa plateforme numérique médicale Amelipro, peut ordonner si jugé nécessaire, la prescription d’un dépistage de covid-19. Bien que cette action ne soit pas malveillante, elle peut déclencher une série de répercussions qui nous pousse à réfléchir sur l’importance du consentement du patient. 
 
@@ -259,7 +262,7 @@ Par exemple, Antoine Flahaut (épidémiologiste et directeur de l'Institut de sa
 
 ## 5) Quelle réalités ces données/indicateurs sont-ils censés représenter ? <a name="5"></a>
 
-Ces jeu de données est presenté de manière très brut, seulement de la data pure. Il faut la manipuler, la transformer en indicateurs et en statistiques afin de pouvoir la digérer et en tirer des conclusions précises et générales. Brut, çela est très difficile. Ainsi, en manipulant et puis en analysant notre jeu de données SI-DEP, nous pouvons voir qu'elle représente une réalité sociale, économique et politique de la France actuelle. Nous pouvons dessiner des tendances qui se dégagent de ces données, représentant différentes réalités. 
+Ces jeu de données est presenté de manière très brut, seulement de la data pure. Il faut la manipuler, la transformer en indicateurs et en statistiques afin de pouvoir la digérer et en tirer des conclusions précises et générales. Brut, çela est très difficile de tirer des conclusions. Ainsi, en manipulant et puis en analysant notre jeu de données SI-DEP, nous pouvons voir qu'elle représente une réalité sociale, économique et politique de la France actuelle. Nous pouvons dessiner des tendances qui se dégagent de ces données, représentant différentes réalités. 
 
 1. L'évolution des décès toutes causes confondues en 2020 par rapport à la même période - +27% en France MAIS quand nous voyons de plus près, +91% en île-de-France et +55% dans le Grand Est. Ainsi, nous voyons l'utilité d'analyser ce jeu de données de manière filtrée afin de voir là où les tendances se dessinent. Dans ces décès, nous constatons également que les personnes âgées sont plus touchées que le reste de la population avec une augmentation de +31% des décèsde plus de 85 and, comparé à +13% des décès chez ceux entre 50 et 65 ans.
 
@@ -272,7 +275,11 @@ Ces jeu de données est presenté de manière très brut, seulement de la data p
 
 ## 6) Entretien avec M. Johnny Platon, data scientist chez Santé publique France <a name="6"></a>
 
-xxx   
+Nous avions initialement choisi d'étudier une base de données liée à la vaccination : "Données relatives aux personnes vaccinées contre la Covid-19 VAC-SI" et nous avions donc contacté les créateurs et gestionnaires de cette base de données avant de changer de sujet pour choisir la base de données liée aux tests de dépistage qui nous semblait plus intéressante à analyser.
+
+Nous avons notamment contacté GEODES et nous avons obtenu une réponse positive à notre demande d'entretien. GEODES nous a mis en contact avec M. Johnny Platon, data scientist chez Santé publique France et contributeur à la base de données relative à la vaccination Covid-19 en France, qui a accepté de répondre à nos questions dans un entretien le 23/11/2022. Les questions/réponses porteront donc sur la base de données liée à la vaccination et non sur la base de données liée aux tests de dépistage mais nous pourrons réaliser certains parallèles entre les deux, avec l'hypothèse que la gestion de ces deux bases de données font face à des enjeux et des problématiques similaires.
+
+
 
 ## 7) Sources <a name="sources"></a>
 * data.gouv.fr
