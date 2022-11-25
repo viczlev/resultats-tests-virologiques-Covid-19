@@ -316,5 +316,10 @@ Les principales difficultés rencontrées dans la gestion de cette base de donn�
 * ZORN, "État d’urgence pour les données de santé (II) : sidep et contact covid", Dalloz, 26 mai 2020, [lien](https://www.dalloz-actualite.fr/flash/etat-d-urgence-pour-donnees-de-sante-ii-sidep-et-contact-covid#.Y3p04OzMKgQ!%5)
 * SANCHEZ, "Covid-19 : la plate-forme SI-Dep, qui contient les résultats des tests de dépistage, rencontre des pannes", *Le Monde*, 5 avril 2022, [lien](https://www.lemonde.fr/les-decodeurs/article/2022/04/05/covid-19-la-plate-forme-si-dep-qui-contient-les-resultats-des-tests-de-depistage-rencontre-des-pannes_6120743_4355770.html)
 * VAZQUEZ, "Tests Covid : les ralentissements de la plateforme SIDEP agacent les pharmaciens", *Le Figaro*, 5 janvier 2022, [lien](https://www.lefigaro.fr/economie/tests-covid-les-ralentissements-de-la-plateforme-sidep-agacent-les-pharmaciens-20220105)
+* ZORN. État d’urgence pour les données de santé (II) : sidep et contact covid. Dalloz, 14 novembre 2022; lien
+
+* SANCHEZ, "Covid-19 : le bras de fer entre les laboratoires d’analyse et le gouvernement perturbe le suivi de l’épidémie", Le Monde, 14 novembre 2022 ; lien
+![image](https://user-images.githubusercontent.com/118362232/203986892-ca12d8ca-521f-4d6e-84f2-4b21641c4893.png)
+
 
 
