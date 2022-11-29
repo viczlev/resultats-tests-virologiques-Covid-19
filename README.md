@@ -205,7 +205,7 @@ Les acteurs principaux qui ont usage de ce jeu de données sont:
 ## 4) Quelles sont les limites ou les critiques rencontrées par ce jeu de données ? <a name="4"></a>
 
 
-### A. Incohérence statistique 
+### A. Incohérence statistique <a name="4.A"></a>
 
 Les données de laboratoires relatives au dépistage des résultats des tests virologiques COVID-19 SI-DEP (le service intégré de dépistage et de prévention) font face à de nombreuses limites: Actuellemnt en France, la somme des tests indiqués pour chaque départements ou régions françaises est inférieure au nombre de tests indiqué pour la France représentant ainsi une incohérence majeure.En effet, les fiches médicales de chaque patient ayant reçu un test virologique/dépistage étaient parfois incomplètes; le lieu de résidence de chaque personne n’a pas toujours été enregistré par le système SIDEP.
 
@@ -213,13 +213,13 @@ De ce fait, certains individus dont le département de résidence n’avait pas 
 
 Il est difficile de suivre l’évolution de la pandémie avec des données incohérents et contradictoires. Le manque de précision épidémiologique dû aux fiches de tests incomplètes doit être suivis de prêt. Advenant une flambée de cas de dépistage positif dans l’Ouest de la France, les personnes dont la résidence est inconnue pourraient faire basculer la France entière dans un pallier d’alerte plus élevé. 
 
-### B. Le temps d’attente 
+### B. Le temps d’attente <a name="4.B"></a>
 
 Lors d’une très forte hausse du nombre de cas, la plateforme SI-DEP fait face à une grande pression. Depuis novembre 2022, les dépistages de COVID sont en forte hausse. Sous la montée fulgurante des tests l’infrastructure technique subit des ralentissements importants. Lors de certaines « heures de pointe » l’interface surcharge dû aux nombres trop importants de saisie sur une courte période. La direction générale de la santé (DGS) stipule que les incidents sont souvent provoqués par des tentatives d’attaque en déni de service (DDOS) qui envoient des connexions simultanées vers le système provoquant un arrêt de service.
 Il est important de noter que c’est n’est pas la première fois que des incidents surviennent. En août 2022, à deux reprises pendant plusieurs heures les professionnels de la santé ne pouvaient pas rentrer les résultats de test antigénique sur la plateforme Si-Dep. Ce problème a empêché à plusieurs patients vaccinés de récupérer leur passe sanitaire, provoquant ainsi leur accès à des lieux nécessitant une passe sanitaire. 
 
 
-### C. La question des données personnelles 
+### C. La question des données personnelles <a name="4.C"></a>
 
 Le recueillement des données transmit à la SIDEP débute très souvent chez le médecin généraliste.  Un professionnel de la santé par l’intermédiaire de sa plateforme numérique médicale Amelipro, peut ordonner si jugé nécessaire, la prescription d’un dépistage de covid-19. Bien que cette action ne soit pas malveillante, elle peut déclencher une série de répercussions qui nous pousse à réfléchir sur l’importance du consentement du patient. 
 
